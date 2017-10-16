@@ -4,8 +4,6 @@
  * @flow
  */
 
-
-
 import React, { Component } from 'react';
 import {
   AppRegistry,
@@ -15,83 +13,137 @@ import {
   View
 } from 'react-native';
 
-//本地数据
-var MOCKED_MOVIES_DATA = [
-  {title: 'Hello React Native', year: '2015', posters: {thumbnail:'https://ww3.sinaimg.cn/mw690/6a4475c9jw1fb7ylgsvdjj20go0ciwga.jpg'}},
-];
+class Greeting extends Component{
+  render(){
+    return(
+      <Text>Hello {this.props.name}! your NO. is {this.props.no}</Text>
+    );
+  }
+}
 
-//网络数据
-var REQUEST_URL = 'https://raw.githubusercontent.com/facebook/react-native/master/docs/MoviesExample.json';
+class Blink extends Component{
+  // constructor(props)
+  constructor(props){
+    super(props);
+    this.state = {showText:true};
 
-
-export default class AwesomeProject extends Component {
-
-  //获取数据
-  getInitState(){
-    return{
-      movies:null,
-    }
+    setInterval(() =>{
+      this.setState(previousState =>{
+        return {showText: !previousState.showText};
+      });
+    }, 1000);
   }
 
- componentDidMount() {
-    this.fetchData();
-  }
-
-  //获取数据
-  fetchData(){
-    fetch(REQUEST_URL)
-      .then((response)=> response.json())
-      .then((responseData) =>{
-        this.setState({
-          movies:responseData.movies,
-        });
-      })
-      .done();
-  }
-
-  //渲染页面
-  render() {
-    var movie = MOCKED_MOVIES_DATA[0];
+  render(){
+    let display = this.state.showText ? this.props.text : '';
     return (
-      <View style={styles.container}>
-        <Image
-            source={{uri: movie.posters.thumbnail}}
-            style={styles.thumbnail}
-        />
-        <View style={styles.rightContainer}>
-        <Text style={styles.title}>{movie.title}</Text>
-        <Text style={styles.year}>{movie.year}</Text>
-        </View>
+      <Text>{display}</Text>      
+    );
+  }
+}
+
+class LotsOfStyles extends Component {
+  render(){
+    return(
+      <View>
+      <Text style={styles.red}>just red</Text>
+      <Text style={styles.bigBlue}>just bigblue</Text>
+      <Text style={[styles.bigBlue, styles.red]}>bigblue, then red</Text>
+      <Text style={[styles.red, styles.bigBlue]}>red, then bigblue</Text>
       </View>
     );
   }
 }
 
+export default class AwesomeProject extends Component {
+  render(){
+    let pic= {
+      url:"https://wx3.sinaimg.cn/mw690/648ac377gy1fkj4u36qt9j20z61qi7m9.jpg"
+    };
+
+    return(
+      // <Text style={styles.welcome}>Hello world</Text>,
+      // <Image source={pic} style={{width: 193, height: 110}} ></Image>
+      
+      //示范props使用
+      // <View style={{alignItems:'center'}}>
+      //   <Greeting name = 'Tom' no='16'/>
+      //   <Greeting name = 'Huan' no='17'/>
+      //   <Greeting name = 'Huan' no='18'/>
+      // </View>
+
+      //示范State使用
+      // <View>
+      //   <Blink text='I love to blink' />
+      //   <Blink text='Yes blinking is so great' />
+      //   <Blink text='Why did they ever take this out of HTML' />
+      //   <Blink text='Look at me look at me look at me' />
+      // </View>
+
+      //Style示范
+      // <LotsOfStyles/>
+
+      //尺寸示范
+      // <View>
+      //   <View style={{width:100,height:100,backgroundColor:'#FF5'}}/>
+      //   <View style={{width:200,height:200,backgroundColor:'#F05'}}/>
+      //   <View style={{width:300,height:300,backgroundColor:'#0F5'}}/>
+      // </View>
+
+      //弹性宽度高度
+      // <View style={{flex:1}}>
+      //   <View style={{flex:1, backgroundColor:'#F00'}}/>
+      //   <View style={{flex:1, backgroundColor:'#FFF'}}/>
+      //   <View style={{flex:1, backgroundColor:'#00F'}}/>
+      // </View>
+
+    <View style = {{
+      flex:1,
+      flexDirection:'column',
+      justifyContent:'flex-start',
+      alignItems:'stretch'
+    }}>
+    
+      <View style={{height:100, backgroundColor:'#00F'}}></View>
+      <View style={{height:150, backgroundColor:'#09F'}}></View>
+      <View style={{height:200, backgroundColor:'#099'}}></View>
+    </View>
+
+    );
+  }
+}
+
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    flexDirection:'row',
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F5F5F5',
+  bigBlue:{
+    color:'#0001F5',
+    fontWeight:'bold',
+    fontSize:30,
   },
-  rightContainer: {
-    flex: 1,
-  },
-  title:{
+
+  red:{
+    color:'red',
     fontSize:20,
-    marginBottom: 10,
-    marginLeft:20,
-    textAlign:'left',
   },
-  year:{
-    textAlign:'left',
-    marginLeft:20,
-  },
-  thumbnail: {
-    width: 100,
-    height: 100,
-  },
-});
+})
+
+
+// const styles = StyleSheet.create({
+//   container: {
+//     flex: 1,
+//     justifyContent: 'center',
+//     alignItems: 'center',
+//     backgroundColor: '#F5FCFF',
+//   },
+//   welcome: {
+//     fontSize: 20,
+//     textAlign: 'center',
+//     margin: 10,
+//   },
+//   instructions: {
+//     textAlign: 'center',
+//     color: '#336033',
+//     marginBottom: 5,
+//   },
+// });
 
 AppRegistry.registerComponent('AwesomeProject', () => AwesomeProject);
