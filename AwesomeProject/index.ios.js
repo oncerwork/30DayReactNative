@@ -98,12 +98,22 @@ export default class AwesomeProject extends Component {
       //   <View style={{flex:1, backgroundColor:'#00F'}}/>
       // </View>
 
+<<<<<<< HEAD
     // <View style = {{
     //   flex:1,
     //   flexDirection:'column',
     //   justifyContent:'flex-start',
     //   alignItems:'stretch'
     // }}>
+=======
+    //示范布局
+    <View style = {{
+      flex:1,
+      flexDirection:'column',
+      justifyContent:'flex-start',
+      alignItems:'stretch'
+    }}>
+>>>>>>> origin/new-start
     
     //   <View style={{height:100, backgroundColor:'#00F'}}></View>
     //   <View style={{height:150, backgroundColor:'#09F'}}></View>
