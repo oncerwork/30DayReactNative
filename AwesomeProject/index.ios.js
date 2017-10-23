@@ -9,8 +9,9 @@ import {
   AppRegistry,
   Image,
   StyleSheet,
+  ScrollView,
   Text,
-  View
+  View,
 } from 'react-native';
 
 class Greeting extends Component{
@@ -97,17 +98,51 @@ export default class AwesomeProject extends Component {
       //   <View style={{flex:1, backgroundColor:'#00F'}}/>
       // </View>
 
-    <View style = {{
-      flex:1,
-      flexDirection:'column',
-      justifyContent:'flex-start',
-      alignItems:'stretch'
-    }}>
+    // <View style = {{
+    //   flex:1,
+    //   flexDirection:'column',
+    //   justifyContent:'flex-start',
+    //   alignItems:'stretch'
+    // }}>
     
-      <View style={{height:100, backgroundColor:'#00F'}}></View>
-      <View style={{height:150, backgroundColor:'#09F'}}></View>
-      <View style={{height:200, backgroundColor:'#099'}}></View>
-    </View>
+    //   <View style={{height:100, backgroundColor:'#00F'}}></View>
+    //   <View style={{height:150, backgroundColor:'#09F'}}></View>
+    //   <View style={{height:200, backgroundColor:'#099'}}></View>
+    <View></View>
+
+    // <ScrollView>
+    //       <Text style={{fontSize:96}}>Scroll me plz</Text>
+    //       <Image source={require('./img/favicon.png')} />
+    //       <Image source={require('./img/favicon.png')} />
+    //       <Image source={require('./img/favicon.png')} />
+    //       <Image source={require('./img/favicon.png')} />
+    //       <Image source={require('./img/favicon.png')} />
+    //       <Text style={{fontSize:96}}>If you like</Text>
+    //       <Image source={require('./img/favicon.png')} />
+    //       <Image source={require('./img/favicon.png')} />
+    //       <Image source={require('./img/favicon.png')} />
+    //       <Image source={require('./img/favicon.png')} />
+    //       <Image source={require('./img/favicon.png')} />
+    //       <Text style={{fontSize:96}}>Scrolling down</Text>
+    //       <Image source={require('./img/favicon.png')} />
+    //       <Image source={require('./img/favicon.png')} />
+    //       <Image source={require('./img/favicon.png')} />
+    //       <Image source={require('./img/favicon.png')} />
+    //       <Image source={require('./img/favicon.png')} />
+    //       <Text style={{fontSize:96}}>What's the best</Text>
+    //       <Image source={require('./img/favicon.png')} />
+    //       <Image source={require('./img/favicon.png')} />
+    //       <Image source={require('./img/favicon.png')} />
+    //       <Image source={require('./img/favicon.png')} />
+    //       <Image source={require('./img/favicon.png')} />
+    //       <Text style={{fontSize:96}}>Framework around?</Text>
+    //       <Image source={require('./img/favicon.png')} />
+    //       <Image source={require('./img/favicon.png')} />
+    //       <Image source={require('./img/favicon.png')} />
+    //       <Image source={require('./img/favicon.png')} />
+    //       <Image source={require('./img/favicon.png')} />
+    //       <Text style={{fontSize:80}}>React Native</Text>
+    //     </ScrollView>
 
     );
   }
