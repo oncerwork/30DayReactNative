@@ -100,6 +100,7 @@ export default class AwesomeProject extends Component {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     // <View style = {{
     //   flex:1,
     //   flexDirection:'column',
@@ -109,6 +110,8 @@ export default class AwesomeProject extends Component {
 =======
 =======
 >>>>>>> origin/new-start
+=======
+>>>>>>> new-start
     //示范布局
     <View style = {{
       flex:1,
