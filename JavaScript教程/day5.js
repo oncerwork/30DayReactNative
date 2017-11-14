@@ -1,6 +1,5 @@
 //面向对象编程
 
-<<<<<<< HEAD
 // 不过，在JavaScript中，这个概念需要改一改。JavaScript不区分类和实例的概念，而是通过原型（prototype）来实现面向对象编程。
 
 var Robot = {
@@ -38,7 +37,7 @@ function createStudent(name) {
 }    
 var huanhuan = createStudent("huanhuan");
 huanhuan.run();
-=======
+
 function Student(props){
     this.name = props.name || "匿名";
     this.grade = props.grade
@@ -104,5 +103,3 @@ class PriStudents extends Students{
 }
 var an = new PriStudents("AN",12);
 an.myGrade()
->>>>>>> f09d3604d0ac87fc0dbe17c980749eada28e76d2
-
