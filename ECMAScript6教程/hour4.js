@@ -24,3 +24,16 @@ console.log(Number.isInteger("50.5?"));
 console.log(Number.isInteger(50));
 
 // Number.EPSILON  表示 1 与大于 1 的最小浮点数之间的差
+console.log(Number.MAX_SAFE_INTEGER)
+
+//Mach方法扩展
+console.log(Math.trunc(3.14))
+
+//指数运算符
+var g = 2**4
+console.log(g)
+g**=2
+console.log(g)
+
+console.log(1n + 3n)
+
