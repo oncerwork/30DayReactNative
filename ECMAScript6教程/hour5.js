@@ -108,3 +108,14 @@ console.log(sum(1,3))
 let getTemp = id => ({id:id, name:'Temp'})
 var tempName = getTemp(123,'Game').name
 console.log(tempName)
+
+//尾调用
+
+function g(z){
+    console.log(z);
+}
+function f(x){
+    return g(x)
+}
+//函数f的最后一步是调用函数g，这就叫尾调用
+
