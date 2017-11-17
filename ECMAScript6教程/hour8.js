@@ -39,5 +39,56 @@ setDemo.clear;
 console.log(setDemo)
 
 //遍历操作
-let setFor = new Set(['Ace','Bar','Car','Dog'])
-console.log(setFor.key)
+let setFor = new Set(['Ace','Bard','Car','Dog'])
+for( let item of setFor.keys()){
+    console.error(item)
+}
+//keys 和 values相同
+
+for(let item of setFor.entries()){
+    console.log(item);
+}
+
+for(let x of setFor){
+    console.log(x);    
+}
+
+let arraySet = [...setFor]
+console.log(arraySet);
+
+console.error(arraySet.map(x => x.length>3));
+console.error(arraySet.filter(x=>x.length>3));
+
+//WeakSet
+
+// WeakSet 结构与 Set 类似，也是不重复的值的集合。但是，它与 Set 有两个区别。
+// 1 首先，WeakSet 的成员只能是对象，而不能是其他类型的值
+// 2 WeakSet 是不可遍历的 WeakSet 中的对象都是弱引用
+var wset = new WeakSet()
+// wset.add(11)//插入数值报错
+
+wset.add([1])
+
+
+// Map
+// Map数据结构。类似于对象，也是键值对的集合，但是“键”的范围不限于字符串，各种类型的值（包括对象）都可以当作键
+var m = new Map()
+var o = {p:'Hello wold'}
+console.clear()
+console.warn(o.p);
+
+m[0]= 'content';
+console.warn(m[0]);
+
+var mapArray = new Map([['name','HH'],['title','Author']])
+console.log(mapArray.size)
+console.log(mapArray)
+// 如果对同一个键多次赋值，后面的值将覆盖前面的值。
+
+//map的方法
+var map = new Map().set('1',1).set(2,'2').set('3',3)
+console.log(map.get(2))
+console.log(map)
+map.forEach(function(key,value,map){
+    console.log(key)
+})
