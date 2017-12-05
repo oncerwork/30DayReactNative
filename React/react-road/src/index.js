@@ -129,7 +129,6 @@ function NumberList(props) {
         // 又对啦！key应该在数组的上下文中被指定
         <ListItem key={number.toString()}
                   value={number} />
-
     );
     return (
         <ul>
@@ -139,13 +138,188 @@ function NumberList(props) {
 }
 
 
+//受控组件
+class NameForm extends  React.Component{
+    constructor(props){
+        super(props);
+        this.state = {
+            isGoing:true,
+            numberOfGuests: 2
+        };
+
+        this.handleInputChange = this.handleInputChange.bind(this);
+        // this.handleChange = this.handleChange.bind(this);
+        // this.handleSubmit= this.handleSubmit.bind(this);
+    }
+
+    handleInputChange(event) {
+        const target = event.target;
+        const value = target.type === "checkbox" ? target.checked: target.value;
+        const name = target.name;
+        this.setState({[name]:value});
+    }
+
+
+    // handleChange(event){
+    //     this.setState({value:event.target.value});
+    // }
+    //
+    // handleSubmit(event){
+    //     alert("A name is submmited "+ this.state.value);
+    //     event.preventDefault();
+    // }
+
+
+    render(){
+        return(
+            <form>
+                <label>Is ging:
+                    <input
+                        name="isGoing"
+                        type= "checkbox"
+                        checked={this.state.isGoing}
+                        onChange={this.handleInputChange}
+                    />
+                </label>
+                <br />
+                <label>Number of guest:
+                    <input
+                        name="numberOfGuests"
+                        type="number"
+                        value={this.state.numberOfGuests}
+                        onChange={this.handleInputChange}
+                    />
+
+                    {/*<textarea value={this.state.value} onChange={this.handleChange}/>*/}
+                    {/*<select>*/}
+                        {/*<option value="grapefruit">Grapefruit</option>*/}
+                        {/*<option value="lime">Lime</option>*/}
+                        {/*<option value="coconut">Coconut</option>*/}
+                        {/*<option value="mango">Mango</option>*/}
+                    {/*</select>*/}
+                </label>
+            </form>
+        );
+    }
+}
+
+
+
+//状态提升
+function BoilingVerdict(props) {
+    if (props.celsius >=100){
+        return <p>水开</p>
+    }
+    else{
+        return <p>水没开</p>
+    }
+}
+
+const scaleNames = {
+    c: 'Celsius',
+    f: 'Fahrenheit'
+};
+
+function toCelsius(fahrenheit) {
+    return (fahrenheit -32) * 5 / 9;
+}
+
+function toFahrenheit(celsius) {
+    return (celsius * 9 /5 )+32;
+}
+
+function tryConvert(temperature, convert) {
+    const input = parseFloat(temperature);
+    if (Number.isNaN(input)) {
+        return '';
+    }
+    const output = convert(input);
+    const rounded = Math.round(output * 1000) / 1000;
+    return rounded.toString();
+}
+
+
+class  TemperatureInput extends  React.Component{
+    constructor(props){
+        super(props);
+        // this.state = {temperature:""};
+        this.handleChange = this.handleChange.bind(this);
+    }
+
+    handleChange(e){
+        // this.setState({temperature:e.target.value})
+        this.props.onTemperatureChange(e.target.value);
+    }
+
+    render(){
+        const  temp = this.props.temperature;
+        const  scale = this.props.scale;
+        return(
+            <fieldset>
+                <legend>输入一个摄氏度{scaleNames[scale]}</legend>
+                <input
+                    value={temp}
+                    onChange={this.handleChange}
+                />
+                {/*<BoilingVerdict*/}
+                    {/*celsius = {parseFloat(temp)}*/}
+                {/*/>*/}
+            </fieldset>
+        )
+    }
+}
+
+class  Calculator extends  React.Component{
+    constructor(props){
+        super(props);
+        this.handleCelsiusChange = this.handleCelsiusChange.bind(this);
+        this.handleFahrenheitChange = this.handleFahrenheitChange.bind(this);
+        this.state = {temperature: '', scale:'c'};
+    }
+
+    handleCelsiusChange(temperature){
+        this.setState({scale:'c', temperature});
+    }
+    handleFahrenheitChange(temperature) {
+        this.setState({scale: 'f', temperature});
+    }
+
+
+    render(){
+
+        const  scale = this.state.scale;
+        const  temperature = this.state.temperature;
+        const  celsius = scale==='f'? tryConvert(temperature, toCelsius):temperature;
+        const  fahrenheit = scale==='c'? tryConvert(temperature, toFahrenheit):temperature;
+
+        return(
+            <div>
+                <TemperatureInput
+                    scale="c"
+                    temperature = {celsius}
+                    onTemperatureChange = {this.handleCelsiusChange}
+                />,
+                <TemperatureInput
+                    scale="f"
+                    temperature = {fahrenheit}
+                    onTemperatureChange = {this.handleFahrenheitChange}
+                />
+
+                <BoilingVerdict
+                    celsius={parseFloat(celsius)}
+                />
+            </div>
+        )
+    }
+}
+
 
 
 {/*<App />,*/}
 {/*<Greeting isLogin={false}/>,*/}
-
+{/*<NameForm/>,*/}
 ReactDOM.render(
-    <NumberList numberlist={numbers} />,
+    <Calculator />,
     document.getElementById('root')
 );
 

@@ -13,6 +13,8 @@ import {
   View,
 } from 'react-native';
 
+import {InputDemo} from './Demo/InputDemo'
+
 
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' +
@@ -66,10 +68,19 @@ class Blink extends  Component{
 class  SizeDemo extends Component{
     render(){
         return(
-            <View style={{flex:1}}>
-                <View style={{flex:1, backgroundColor:'#ff3a11'}}></View>
-                <View style={{flex:1, backgroundColor:'#ffe600'}}></View>
-                <View style={{flex:1, backgroundColor:'#1b58ff'}}></View>
+            <View style={{
+                flex:1,
+                flexDirection: 'column',
+                justifyContent: 'flex-start',
+                alignItems: 'stretch',//占满
+                // flexDirection:'column',//row row-reverse column column-reverse
+                // justifyContent:'space-around', //space-between(从头开始等间距)flex-start(从头依次排列)、flex-end 从末尾依次倒序排列、center居中排列、space-arrow（等距离）
+                // alignItems:'stretch'//alignItems可以决定其子元素沿着次轴（与主轴垂直的轴，比如若主轴方向为row，则次轴方向为column）的排列方式
+
+            }}>
+                <View style={{height:100, backgroundColor:'#ff3a11'}}></View>
+                <View style={{height:100, backgroundColor:'#ffe600'}}></View>
+                <View style={{height:100, backgroundColor:'#1b58ff'}}></View>
             </View>
         );
     }
@@ -79,7 +90,8 @@ class  SizeDemo extends Component{
 export default class App extends Component<{}> {
   render() {
     return (
-        <SizeDemo/>
+        {/*<SizeDemo/>*/}
+        <InputDemo/>
         /*
         <View>
             <List name={"丁彦雨航30分取胜四川"}/>
