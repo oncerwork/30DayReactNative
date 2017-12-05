@@ -36,22 +36,57 @@ class List extends  Component{
     render(){
         return(
             <View>
-            <Bananas/><Text style={styles.listTitle}>{this.props.name}</Text>
+            <Bananas/><Blink text={this.props.name}> {this.props.name}</Blink>
             </View>
         );
     }
 }
 
+class Blink extends  Component{
+    constructor(props){
+        super(props);
+        this.state = {showText:true};
+
+
+        setInterval(() => {
+            this.setState(previousState => {
+                return { showText: !previousState.showText };
+            });
+        }, 1000);
+    }
+
+    render(){
+        let display = this.state.showText ? this.props.text : '';
+        return(
+            <Text style={styles.redTitle}>{display}</Text>
+        );
+    }
+}
+
+class  SizeDemo extends Component{
+    render(){
+        return(
+            <View style={{flex:1}}>
+                <View style={{flex:1, backgroundColor:'#ff3a11'}}></View>
+                <View style={{flex:1, backgroundColor:'#ffe600'}}></View>
+                <View style={{flex:1, backgroundColor:'#1b58ff'}}></View>
+            </View>
+        );
+    }
+}
+
+
 export default class App extends Component<{}> {
   render() {
     return (
+        <SizeDemo/>
+        /*
         <View>
             <List name={"丁彦雨航30分取胜四川"}/>
             <List name={"睢冉退出微博"}/>
             <List name={"山东莫泰"}/>
         </View>
 
-        /*
       <View style={styles.container}>
         <Text style={styles.welcome}>
           Welcome to React Native!
@@ -89,7 +124,12 @@ const styles = StyleSheet.create({
     },
     listTitle: {
         textAlign: 'left',
-        color: '#333333',
+        color: '#ff0000',
         fontSize: 18,
+    },
+    redTitle: {
+        textAlign: 'left',
+        color: '#ff0000',
+        fontSize: 20
     },
 });
