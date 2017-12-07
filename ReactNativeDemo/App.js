@@ -88,25 +88,53 @@ class  SizeDemo extends Component{
     }
 }
 
+
+var REQUEST_URL = 'https://facebook.github.io/react-native/movies.json';
+
 //列表
 class  FlatListDemo extends  Component{
+
+    // 构造
+      constructor(props) {
+        super(props);
+        // 初始状态
+        this.state = {movies:null};
+      }
+
+    fetchData()
+    {
+        fetch(REQUEST_URL, {
+            method: 'GET'
+        })
+            .then((response) => response.json())
+            .then((responseData) => {
+                this.setState({
+                    movies:responseData.movies,
+                });
+            })
+            .catch((error) => {
+                callback(error);
+            });
+    }
+
+    componentDidMount()
+    {
+        this.fetchData();
+    }
+
     render(){
-        return(
-            <View style={styles.container}>
-                <FlatList
-                    data={[
-                        {key: '大护法'},
-                        {key: '绣春刀II：修罗战场'},
-                        {key: '神偷奶爸3'},
-                        {key: '神奇女侠'},
-                        {key: '摔跤吧，爸爸'},
-                        {key: '悟空传'},
-                        {key: '闪光少女'},
-                    ]}
-                    renderItem={({item}) => <Text style={styles.item}>{item.key}</Text>}
-                />
-            </View>
-        );
+        if (this.state.movies) {
+            return(
+                    <View style={styles.container}>
+                        <Text style={{backgroundColor:'#f1D', height:100}}>{this.state.movies[0].title}</Text>
+                    </View>
+            )
+        }
+        else{
+            return(
+                <View><Text style={{backgroundColor:'#f1D'}}>加载中...</Text></View>
+            )
+        }
     }
 }
 
@@ -154,10 +182,13 @@ class SectionListDemo extends Component{
 }
 
 
+
+
 export default class App extends Component<{}> {
+
   render() {
     return (
-        <SectionListDemo />
+        <FlatListDemo />
         /*
         <View>
             <List name={"丁彦雨航30分取胜四川"}/>
