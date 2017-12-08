@@ -12,11 +12,11 @@ import {
     Text,
     View,
     FlatList,
-    SectionList
+    SectionList,
+    ActivityIndicator,
 } from 'react-native';
 
 // import {InputDemo} from './Demo/InputDemo'
-
 
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' +
@@ -24,7 +24,6 @@ const instructions = Platform.select({
   android: 'Double tap R on your keyboard to reload,\n' +
     'Shake or press menu button for dev menu',
 });
-
 
 class  Bananas extends Component{
     render(){
@@ -36,6 +35,7 @@ class  Bananas extends Component{
         );
     }
 }
+
 class List extends  Component{
     render(){
         return(
@@ -89,51 +89,82 @@ class  SizeDemo extends Component{
 }
 
 
-var REQUEST_URL = 'https://facebook.github.io/react-native/movies.json';
 
 //列表
+var REQUEST_URL = 'https://facebook.github.io/react-native/movies.json';
 class  FlatListDemo extends  Component{
-
     // 构造
-      constructor(props) {
+    constructor(props) {
         super(props);
         // 初始状态
         this.state = {movies:null};
-      }
+    }
+
+
+    async asycFetchData(){
+        try{
+            let response = await fetch(REQUEST_URL);
+            let responseData = await response.json();
+            this.setState({movies:responseData.movies})
+        }
+        catch (error){
+            alert("登录失败，请检查网络连接！")
+        }
+    }
 
     fetchData()
     {
         fetch(REQUEST_URL, {
             method: 'GET'
         })
-            .then((response) => response.json())
-            .then((responseData) => {
-                this.setState({
-                    movies:responseData.movies,
-                });
-            })
-            .catch((error) => {
-                callback(error);
+        .then((response) => response.json())
+        .then((responseData) => {
+            this.setState({
+                movies:responseData.movies,
             });
+        })
+        .catch((error) => {
+            callback(error);
+        });
     }
+
 
     componentDidMount()
     {
-        this.fetchData();
+        this.asycFetchData();
     }
+
+    renderLoadingView(){
+        return (
+            <View style={styles.container}>
+                <ActivityIndicator
+                    animating={true}
+                    style={{height: 80}}
+                    color='red'
+                    size="large"
+                />
+            </View>
+        )
+    }
+
 
     render(){
         if (this.state.movies) {
             return(
                     <View style={styles.container}>
-                        <Text style={{backgroundColor:'#f1D', height:100}}>{this.state.movies[0].title}</Text>
+                        {/*<Text style={{backgroundColor:'#f1D', height:100}}>{this.state.movies[0].title}</Text>*/}
+                        <FlatList style={styles.list}
+                                  data = {this.state.movies}
+                                  renderItem={
+                                      ({item}) => <Text style={styles.item}>{item.title}</Text>
+                                  }
+                                  keyExtractor={(item, index) => index}//如果不指定 key 可以使用这个方式去掉提醒
+                        />
                     </View>
             )
         }
         else{
-            return(
-                <View><Text style={{backgroundColor:'#f1D'}}>加载中...</Text></View>
-            )
+            return this.renderLoadingView();
         }
     }
 }
