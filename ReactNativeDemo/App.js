@@ -14,9 +14,12 @@ import {
     FlatList,
     SectionList,
     ActivityIndicator,
+    NavigatorIOS,
 } from 'react-native';
 
-// import {InputDemo} from './Demo/InputDemo'
+import {MyScene} from "./Demo/MyScene";
+
+
 
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' +
@@ -145,7 +148,8 @@ class  FlatListDemo extends  Component{
                 />
             </View>
         )
-    }
+    }clear
+
 
 
     render(){
@@ -212,14 +216,19 @@ class SectionListDemo extends Component{
     }
 }
 
-
-
-
-export default class App extends Component<{}> {
+export default class App extends Component{
 
   render() {
     return (
-        <FlatListDemo />
+
+        <NavigatorIOS
+            initialRoute={{
+                component: MyScene,
+                title: 'My Initial Scene',
+            }}
+            style={{flex: 1}}
+        />
+        // <FlatListDemo />
         /*
         <View>
             <List name={"丁彦雨航30分取胜四川"}/>
