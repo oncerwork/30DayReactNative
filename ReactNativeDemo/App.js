@@ -18,8 +18,8 @@ import {
 } from 'react-native';
 
 import {MyScene} from "./Demo/MyScene";
-
-
+import {ButtonDemo} from "./Demo/TouchDemo";
+import {AnimationDemo} from "./Demo/AnimationDemo";
 
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' +
@@ -221,6 +221,7 @@ export default class App extends Component{
   render() {
     return (
 
+        /*
         <NavigatorIOS
             initialRoute={{
                 component: MyScene,
@@ -228,6 +229,16 @@ export default class App extends Component{
             }}
             style={{flex: 1}}
         />
+
+        <ButtonDemo />
+
+        */
+          <AnimationDemo
+              style={{width:300, height:100, backgroundColor:'#F33'}}
+          >
+              <Text style={{textAlign:'center', margin:10, fontSize:16}}>Fly bird</Text>
+          </AnimationDemo>
+
         // <FlatListDemo />
         /*
         <View>
