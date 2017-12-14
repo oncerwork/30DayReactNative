@@ -231,13 +231,16 @@ export default class App extends Component{
         />
 
         <ButtonDemo />
-
         */
-          <AnimationDemo
+
+        <AnimationDemo
               style={{width:300, height:100, backgroundColor:'#F33'}}
           >
               <Text style={{textAlign:'center', margin:10, fontSize:16}}>Fly bird</Text>
-          </AnimationDemo>
+        </AnimationDemo>
+     
+
+        // <TimerDemo></TimerDemo>
 
         // <FlatListDemo />
         /*

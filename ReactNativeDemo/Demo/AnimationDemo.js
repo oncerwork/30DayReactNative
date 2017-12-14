@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Animated,Easing} from  'react-native'
+import {Animated,Easing,Platform} from  'react-native'
 
 export class AnimationDemo extends Component {
     constructor(props){
@@ -14,7 +14,7 @@ export class AnimationDemo extends Component {
             this.state.fadeAnimation,
             {
                 toValue: 1,
-                duration: 8000,
+                duration:(Platform.OS === 'ios')? 4000:1000,
             }
         ).start();
     }
@@ -31,5 +31,4 @@ export class AnimationDemo extends Component {
           </Animated.View>
         );
     }
-
 }
