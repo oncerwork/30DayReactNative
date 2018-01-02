@@ -16,40 +16,67 @@ export default class App extends Component<{}> {
     constructor(props){
         super(props);
         this.state = {
-            value:'',
+            allComplete:false,
+            todoValue:'',
             items:[]
         }
         this.handleAddItem = this.handleAddItem.bind(this);
+        this.handleToggleAllComplete = this.handleToggleAllComplete.bind(this);
+    }
+
+    //全部完成
+    handleToggleAllComplete(){
+        const complete = !this.state.allComplete;
+        const newItems = this.state.items.map((item) => ({
+            ...item,
+            complete
+        }))
+
+        this.setState({
+            items:newItems,
+            allComplete:complete
+        })
+
+        console.table(newItems);
+
     }
 
     handleAddItem(){
-        if(!this.state.value) return;
+        if(!this.state.todoValue) return;
+
+        console.log('$$$$'+this.state.todoValue);
+
         const  newItems = [
             ...this.state.items,
             {
                 key:Date.now(),
-                text:this.state.value,
+                text:this.state.todoValue,
                 complete:false
             }
         ]
 
-        console.table(newItems);
 
         this.setState({
             items:newItems,
-            value:''
+            todoValue:''
         })
+
+        console.table(newItems);
+
     }
 
   render() {
     return (
       <View style={styles.container}>
           <Header
-              value={this.state.value}
+              todoValue={this.state.todoValue}
               onAddItem = {this.handleAddItem}
-              onChange = {(value) => this.setState(
-                  {value}
+              onChange = {(text) => this.setState(
+                  {
+                      todoValue:text
+                  }
               )}
+              onToggleAllComplete = {this.handleToggleAllComplete}
           />
           <View/>
           <Footer/>

@@ -6,7 +6,7 @@
 
 import React, { Component } from 'react';
 import {
-    View,TextInput,StyleSheet
+    View,Text,TextInput,StyleSheet,TouchableOpacity
 } from 'react-native';
 
 
@@ -14,9 +14,12 @@ class Header extends Component<{}> {
     render() {
         return (
             <View style={styles.header}>
+                <TouchableOpacity onPress={this.props.onToggleAllComplete}>
+                    <Text style={styles.toggleIcon}>{String.fromCharCode(10003)}</Text>
+                </TouchableOpacity>
                 <TextInput
-                    value={this.props.value}
-                    onChange={this.props.onChange}
+                    value={this.props.todoValue}
+                    onChangeText={this.props.onChange}
                     onSubmitEditing={this.props.onAddItem}
                     placeholder='请输入任务？'
                     blurOnSubmit={false}
@@ -36,10 +39,14 @@ const styles = StyleSheet.create({
         justifyContent:'flex-end',
         alignItems:'center'
     },
-
+    toggleIcon:{
+        fontSize:25,
+        color:"#CCC"
+    },
     input:{
         flex:1,
         height:50,
+        marginLeft:16
     }
 
 });
