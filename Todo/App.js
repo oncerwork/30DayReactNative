@@ -29,6 +29,7 @@ export default class App extends Component<{}> {
 
         this.handleAddItem = this.handleAddItem.bind(this);
         this.handleToggleAllComplete = this.handleToggleAllComplete.bind(this);
+        this.handleToggleComplete= this.handleToggleComplete.bind(this);
     }
 
     setSource(items, itemsDatasource, otherState = {}) {
@@ -74,6 +75,17 @@ export default class App extends Component<{}> {
         this.setSource(newItems,newItems,{todoValue : ""});
     }
 
+    handleToggleComplete(key,complete){
+        const newItems = this.state.items.map((item)=>{
+            if (item.key !== key) return item;
+            return{
+                ...item,
+                complete
+            }
+        })
+        this.setSource(newItems, newItems);
+    }
+
   render() {
     return (
       <View style={styles.container}>
@@ -100,6 +112,7 @@ export default class App extends Component<{}> {
                             key = {key}
                             todoText = {value.todoText}
                             {...value}
+                            onComplete = {(value)=>this.handleToggleComplete(key,value)}
                         />
                     )
                 }}

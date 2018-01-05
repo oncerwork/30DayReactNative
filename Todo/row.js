@@ -1,13 +1,23 @@
 //import liraries
 import React, { Component } from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, Text, StyleSheet, Switch } from 'react-native';
 
 // create a component
 class Row extends Component {
     render() {
+
+        const {complete} = this.props;
+
         return (
             <View style={styles.container}>
-                <Text style={styles.todoText}>{this.props.todoText}</Text>
+                <Switch
+                    value={complete}
+                    onValueChange={this.props.onComplete}
+                ></Switch>
+                <View style={styles.todoTextWrap}>
+                    <Text style={[styles.todoText, complete && styles.todoTextComplete]}>{this.props.todoText}</Text>
+                    {/*样式处理 以右侧为准，如果有冲突；可以加入判断语句*/}
+                </View>
             </View>
         );
     }
@@ -18,15 +28,21 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         flexDirection:"row",
-        justifyContent: 'center',
         alignItems: 'flex-start',
-        justifyContent:"space-between",
+        justifyContent:"flex-start",
         backgroundColor: '#F1F1F1',
         padding:10
+    },
+    todoTextWrap:{
+        flex:1,
+        paddingHorizontal:10
     },
     todoText:{
         color:"#000",
         fontSize:24
+    },
+    todoTextComplete:{
+        textDecorationLine:"line-through",
     },
 });
 
