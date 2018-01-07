@@ -1,6 +1,6 @@
 //import liraries
 import React, { Component } from 'react';
-import { View, Text, StyleSheet, Switch } from 'react-native';
+import { View, Text, StyleSheet, Switch,TouchableOpacity } from 'react-native';
 
 // create a component
 class Row extends Component {
@@ -18,6 +18,10 @@ class Row extends Component {
                     <Text style={[styles.todoText, complete && styles.todoTextComplete]}>{this.props.todoText}</Text>
                     {/*样式处理 以右侧为准，如果有冲突；可以加入判断语句*/}
                 </View>
+                <TouchableOpacity
+                    onPress={}={this.props.deleteTodo}>
+                    <Text style={styles.deleteText}>X</Text>
+                </TouchableOpacity>
             </View>
         );
     }
@@ -44,6 +48,10 @@ const styles = StyleSheet.create({
     todoTextComplete:{
         textDecorationLine:"line-through",
     },
+    deleteText:{
+        color:"#F00",
+        fontSize:20
+    }
 });
 
 //make this component available to the app

@@ -30,6 +30,8 @@ export default class App extends Component<{}> {
         this.handleAddItem = this.handleAddItem.bind(this);
         this.handleToggleAllComplete = this.handleToggleAllComplete.bind(this);
         this.handleToggleComplete= this.handleToggleComplete.bind(this);
+        this.deleteTodoItem = this.deleteTodoItem.bind(this);
+
     }
 
     setSource(items, itemsDatasource, otherState = {}) {
@@ -38,6 +40,7 @@ export default class App extends Component<{}> {
             dataSource: this.state.dataSource.cloneWithRows(itemsDatasource),
             ...otherState
         })
+        console.table(this.state.items);
     }
 
     //全部完成
@@ -50,10 +53,6 @@ export default class App extends Component<{}> {
 
         this.setSource(newItems,newItems,{allComplete : complete});
 
-        // this.setState({
-        //     items:newItems,
-        //     allComplete:complete
-        // })
         console.table(this.state.items);
     }
 
@@ -86,6 +85,14 @@ export default class App extends Component<{}> {
         this.setSource(newItems, newItems);
     }
 
+    deleteTodoItem(key){
+        console.table(this.state.items);
+        const newitems =  this.state.items.filter((item)=>{
+            return item.key != key
+        })
+        this.setSource(newitems,newitems);
+    }
+
   render() {
     return (
       <View style={styles.container}>
@@ -102,6 +109,7 @@ export default class App extends Component<{}> {
 
           <View style = {styles.content}>
             <ListView
+                rremove
                 style={styles.list}
                 enableEmptySections
                 dataSource= {this.state.dataSource}
@@ -113,6 +121,7 @@ export default class App extends Component<{}> {
                             todoText = {value.todoText}
                             {...value}
                             onComplete = {(value)=>this.handleToggleComplete(key,value)}
+                            deleteTodo = {() => this.deleteTodoItem(key)}
                         />
                     )
                 }}
