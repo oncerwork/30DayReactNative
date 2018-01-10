@@ -19,7 +19,7 @@ class Row extends Component {
                     {/*样式处理 以右侧为准，如果有冲突；可以加入判断语句*/}
                 </View>
                 <TouchableOpacity
-                    onPress={}={this.props.deleteTodo}>
+                    onPress={()=>this.props.deleteTodo}>
                     <Text style={styles.deleteText}>X</Text>
                 </TouchableOpacity>
             </View>

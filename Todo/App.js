@@ -24,13 +24,15 @@ export default class App extends Component<{}> {
             allComplete:false,
             todoValue:'',
             items:[],
-            dataSource:ds.cloneWithRows([])
+            dataSource:ds.cloneWithRows([]),
+            filter:"All"
         }
 
         this.handleAddItem = this.handleAddItem.bind(this);
         this.handleToggleAllComplete = this.handleToggleAllComplete.bind(this);
         this.handleToggleComplete= this.handleToggleComplete.bind(this);
         this.deleteTodoItem = this.deleteTodoItem.bind(this);
+        this.handleFilterTodo = this.handleFilterTodo.bind(this);
 
     }
 
@@ -93,6 +95,22 @@ export default class App extends Component<{}> {
         this.setSource(newitems,newitems);
     }
 
+    //方案一  缺点无法将过滤方法用在其他方法中
+    handleFilterTodo(filter){
+        const newItems = this.state.items.filter((item)=>{
+            if(filter === "ALL"){
+                return true;
+            }
+            else if(filter === "Active"){
+                return !item.complete;
+            }
+            else if(filter == "Complete"){
+                return item.complete;
+            }
+        })
+        this.setSource(this.state.items, newItems)
+    }
+
   render() {
     return (
       <View style={styles.container}>
@@ -131,7 +149,12 @@ export default class App extends Component<{}> {
             />
           </View>
 
-          <Footer/>
+          <Footer
+            filter = {this.state.filter}
+            onFilter = {(filter)=>this.handleFilterTodo(filter)}
+          >
+
+          </Footer>
       </View>
     );
   }
