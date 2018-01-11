@@ -12,7 +12,13 @@ import {
 import Header from "./header";
 import Footer from "./footer";
 import Row  from "./row";
-
+const filterItems = (filter, items)=>{
+    return items.filter((item) => {
+        if (filter === "ALL") return true;
+        if (filter === "Active") return !item.complete;
+        if (filter === "Complete") return item.complete;
+    })
+}
 export default class App extends Component<{}> {
     constructor(props){
         super(props);
@@ -45,20 +51,6 @@ export default class App extends Component<{}> {
         console.table(this.state.items);
     }
 
-    //全部完成
-    handleToggleAllComplete(){
-        const complete = !this.state.allComplete;
-        const newItems = this.state.items.map((item) => ({
-            ...item,
-            complete
-        }))
-
-        this.setSource(newItems,newItems,{allComplete : complete});
-
-        console.table(this.state.items);
-    }
-
-
 
     //新增任务
     handleAddItem(){
@@ -73,7 +65,7 @@ export default class App extends Component<{}> {
             }
         ]
 
-        this.setSource(newItems,newItems,{todoValue : ""});
+        this.setSource(newItems,filterItems(this.state.filter, newItems),{todoValue : ""});
     }
 
     handleToggleComplete(key,complete){
@@ -84,7 +76,20 @@ export default class App extends Component<{}> {
                 complete
             }
         })
-        this.setSource(newItems, newItems);
+        this.setSource(newItems, filterItems(this.state.filter, newItems));
+    }
+
+    //全部完成
+    handleToggleAllComplete(){
+        const complete = !this.state.allComplete;
+        const newItems = this.state.items.map((item) => ({
+            ...item,
+            complete
+        }))
+
+        this.setSource(newItems,filterItems(this.state.filter, newItems),{allComplete : complete});
+
+        console.table(this.state.items);
     }
 
     deleteTodoItem(key){
@@ -92,23 +97,26 @@ export default class App extends Component<{}> {
         const newitems =  this.state.items.filter((item)=>{
             return item.key != key
         })
-        this.setSource(newitems,newitems);
+        this.setSource(newitems,filterItems(this.state.filter, newitems));
     }
 
     //方案一  缺点无法将过滤方法用在其他方法中
     handleFilterTodo(filter){
-        const newItems = this.state.items.filter((item)=>{
-            if(filter === "ALL"){
-                return true;
-            }
-            else if(filter === "Active"){
-                return !item.complete;
-            }
-            else if(filter == "Complete"){
-                return item.complete;
-            }
-        })
-        this.setSource(this.state.items, newItems)
+
+        this.setSource(this.state.items, filterItems(filter, this.state.items),{filter})
+
+        // const newItems = this.state.items.filter((item)=>{
+        //     if(filter === "ALL"){
+        //         return true;
+        //     }
+        //     else if(filter === "Active"){
+        //         return !item.complete;
+        //     }
+        //     else if(filter == "Complete"){
+        //         return item.complete;
+        //     }
+        // })
+        // this.setSource(this.state.items, newItems)
     }
 
   render() {
@@ -151,7 +159,8 @@ export default class App extends Component<{}> {
 
           <Footer
             filter = {this.state.filter}
-            onFilter = {(filter)=>this.handleFilterTodo(filter)}
+            // onFilter = {(filter)=>this.handleFilterTodo(filter)}
+              onFilter = {this.handleFilterTodo}
           >
 
           </Footer>
@@ -159,7 +168,6 @@ export default class App extends Component<{}> {
     );
   }
 };
-
 
 const styles = StyleSheet.create({
     container:{
