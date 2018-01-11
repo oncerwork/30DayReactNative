@@ -25,13 +25,12 @@ export default class App extends Component<{}> {
 
         const  ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2});
 
-
         this.state = {
             allComplete:false,
             todoValue:'',
             items:[],
             dataSource:ds.cloneWithRows([]),
-            filter:"All"
+            filter:"ALL"
         }
 
         this.handleAddItem = this.handleAddItem.bind(this);
@@ -64,7 +63,6 @@ export default class App extends Component<{}> {
                 complete:false
             }
         ]
-
         this.setSource(newItems,filterItems(this.state.filter, newItems),{todoValue : ""});
     }
 
@@ -95,7 +93,7 @@ export default class App extends Component<{}> {
     deleteTodoItem(key){
         console.table(this.state.items);
         const newitems =  this.state.items.filter((item)=>{
-            return item.key != key
+            return item.key !== key
         })
         this.setSource(newitems,filterItems(this.state.filter, newitems));
     }
@@ -135,7 +133,7 @@ export default class App extends Component<{}> {
 
           <View style = {styles.content}>
             <ListView
-                rremove
+                removeClippedSubviews={false}
                 style={styles.list}
                 enableEmptySections
                 dataSource= {this.state.dataSource}
@@ -160,7 +158,8 @@ export default class App extends Component<{}> {
           <Footer
             filter = {this.state.filter}
             // onFilter = {(filter)=>this.handleFilterTodo(filter)}
-              onFilter = {this.handleFilterTodo}
+            onFilter = {this.handleFilterTodo}
+            count = {filterItems("Active",this.state.items).length}
           >
 
           </Footer>
