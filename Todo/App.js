@@ -38,6 +38,7 @@ export default class App extends Component<{}> {
         this.handleToggleComplete= this.handleToggleComplete.bind(this);
         this.deleteTodoItem = this.deleteTodoItem.bind(this);
         this.handleFilterTodo = this.handleFilterTodo.bind(this);
+        this.handleClearComplete= this.handleClearComplete.bind(this);
 
     }
 
@@ -117,6 +118,11 @@ export default class App extends Component<{}> {
         // this.setSource(this.state.items, newItems)
     }
 
+    handleClearComplete(){
+        const newItems = filterItems("Active",this.state.items);
+        this.setSource(newItems,filterItems(this.state.filter, newItems))
+    }
+
   render() {
     return (
       <View style={styles.container}>
@@ -160,8 +166,8 @@ export default class App extends Component<{}> {
             // onFilter = {(filter)=>this.handleFilterTodo(filter)}
             onFilter = {this.handleFilterTodo}
             count = {filterItems("Active",this.state.items).length}
+            clearnComplete = {this.handleClearComplete}
           >
-
           </Footer>
       </View>
     );
