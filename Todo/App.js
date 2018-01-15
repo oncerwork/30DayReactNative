@@ -6,12 +6,14 @@
 
 import React, { Component } from 'react';
 import {
-  View,StyleSheet,Platform,ListView,Keyboard
+  View,StyleSheet,Platform,ListView,Keyboard, AsyncStorage
 } from 'react-native';
+
 
 import Header from "./header";
 import Footer from "./footer";
 import Row  from "./row";
+
 const filterItems = (filter, items)=>{
     return items.filter((item) => {
         if (filter === "ALL") return true;
@@ -48,7 +50,18 @@ export default class App extends Component<{}> {
             dataSource: this.state.dataSource.cloneWithRows(itemsDatasource),
             ...otherState
         })
-        console.table(this.state.items);
+        AsyncStorage.setItem("items",JSON.stringify(items));
+    }
+
+    componentWillMount() {
+        AsyncStorage.getItem("items").then((json)=>{
+            try{
+                const newItems = JSON.parse(json);
+                this.setSource(newItems,newItems)
+            }catch (e){
+
+            }
+        })
     }
 
 
