@@ -6,7 +6,7 @@
 
 import React, { Component } from 'react';
 import {
-  View,StyleSheet,Platform,ListView,Keyboard, AsyncStorage
+  View,StyleSheet,Platform,ListView,Keyboard, AsyncStorage,ActivityIndicator
 } from 'react-native';
 
 
@@ -32,7 +32,8 @@ export default class App extends Component<{}> {
             todoValue:'',
             items:[],
             dataSource:ds.cloneWithRows([]),
-            filter:"ALL"
+            filter:"ALL",
+            loading:true
         }
 
         this.handleAddItem = this.handleAddItem.bind(this);
@@ -57,9 +58,11 @@ export default class App extends Component<{}> {
         AsyncStorage.getItem("items").then((json)=>{
             try{
                 const newItems = JSON.parse(json);
-                this.setSource(newItems,newItems)
+                this.setSource(newItems,newItems,{loading:false})
             }catch (e){
-
+                this.setState({
+                    loading:false
+                })
             }
         })
     }
@@ -182,6 +185,15 @@ export default class App extends Component<{}> {
             clearnComplete = {this.handleClearComplete}
           >
           </Footer>
+
+          {this.state.loading && <View style={styles.loading}>
+              <ActivityIndicator
+                  size="large"
+                  animating
+              />
+
+          </View>
+          }
       </View>
     );
   }
@@ -204,5 +216,15 @@ const styles = StyleSheet.create({
     separator:{
         borderWidth:1,
         borderColor:'#F5F5F5'
+    },
+    loading:{
+        position:"absolute",
+        left:0,
+        top:0,
+        right:0,
+        bottom:0,
+        alignItems:"center",
+        justifyContent:"center",
+        backgroundColor:"rgba(0,0,0,0.2)"
     }
 })
