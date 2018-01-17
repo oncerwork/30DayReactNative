@@ -192,8 +192,7 @@ export default class App extends Component<{}> {
                   animating
               />
 
-          </View>
-          }
+          </View>}
       </View>
     );
   }
