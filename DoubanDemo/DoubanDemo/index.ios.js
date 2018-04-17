@@ -30,11 +30,17 @@ export default class DoubanDemo extends Component {
 
         <View style={styles.view_middle}>
             <TouchableOpacity>
-                <Text style={styles.button_login} title='登录'></Text>
+                <Text style={styles.button_login}>手机号登录</Text>
             </TouchableOpacity>
             <TouchableOpacity>
-                <Text style={styles.button_login} title='注册'></Text>
+                <Text style={styles.button_login} >注册</Text>
             </TouchableOpacity>
+            <TouchableOpacity>
+                <Text style={styles.button_vistor} >游客试用</Text>
+            </TouchableOpacity>
+
+            <Text style={styles.button_vistor_line}></Text>
+
         </View>
 
         <View style={{backgroundColor:'steelblue', flex:1}}>
@@ -59,6 +65,7 @@ const styles = StyleSheet.create({
         justifyContent:'flex-end',
         alignItems:'center'
     },
+
     logo:{
         width:90,
         height:90,
@@ -76,25 +83,39 @@ const styles = StyleSheet.create({
         width:320,
         height:44,
         color:'#E52E2E',
-        fontSize:20,
+        fontSize:18,
         textAlign:'center',
         borderColor:'#E52E2E',
         borderWidth:1,
         backgroundColor:'white',
         borderRadius: 22,
-        margin:10
+        marginTop:15,
+        fontWeight:'normal',
+        paddingTop:12
+    },
+
+    button_vistor:{
+        width:100,
+        height:30,
+        color:'gray',
+        fontSize:13,
+        textAlign:'center',
+        fontWeight:'normal',
+        paddingTop:12,
+    },
+
+    button_vistor_line:{
+        width:60,
+        height:0.5,
+        backgroundColor:'gray',paddingTop:0
     },
 
     welcome: {
         fontSize: 40,
         textAlign: 'center',
         margin: 50,
-    },
-    instructions: {
-        textAlign: 'center',
-        color: '#333333',
-        marginBottom: 5,
-    },
+    }
+
 });
 
 AppRegistry.registerComponent('DoubanDemo', () => DoubanDemo);
