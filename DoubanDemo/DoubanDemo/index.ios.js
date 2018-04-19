@@ -43,8 +43,16 @@ export default class DoubanDemo extends Component {
 
         </View>
 
-        <View style={{backgroundColor:'steelblue', flex:1}}>
+        <View style={{backgroundColor:'white', flex:2 ,justifyContent:'flex-start', alignItems:'center'}}>
+            <View style={{flex:1,flexDirection:'row',justifyContent:'center',alignItems:'center'}}>
+                <Text style={styles.welcome_line}></Text>
+                <Text style={styles.welcome}>其他登录方式</Text>
+                <Text style={styles.welcome_line}></Text>
+            </View>
 
+            <View>
+
+            </View>
         </View>
 
       </View>
@@ -111,11 +119,16 @@ const styles = StyleSheet.create({
     },
 
     welcome: {
-        fontSize: 40,
+        fontSize: 14,
         textAlign: 'center',
-        margin: 50,
+        fontWeight:'100',
+        color:'#a4a3a4'
+    },
+    welcome_line:{
+        backgroundColor:'#a4a3a4',
+        height:0.5,
+        width:100
     }
-
 });
 
 AppRegistry.registerComponent('DoubanDemo', () => DoubanDemo);
