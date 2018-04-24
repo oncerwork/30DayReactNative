@@ -19,43 +19,87 @@ const onPressLearnMore = function(){
     alert('登录成功');
 }
 
+const imageArray = [require('./source/qq.png'),require('./source/weibo.png'),require('./source/wechat.png')]
+
+/*
+* 底部按钮 View
+*/
+class SNSView extends Component {
+    render() {
+        let imagePath = imageArray[this.props.index];
+        return (
+            <TouchableOpacity style={{alignItems:'center'}} onPress={SNSSelect.bind(this,this.props.name)}>
+                <Image
+                    style={styles.iconBtn}
+                    source={imagePath}
+                />
+                <Text style={{fontSize:12,marginTop:5}}>{this.props.name}</Text>
+            </TouchableOpacity>
+        );
+    }
+}
+
+const SNSSelect = (type) =>{
+    alert('选中了'+type);
+};
+
+const  registAction = ()=>{
+    alert('选中注册');
+};
+
+const  loginAction = ()=>{
+    alert('选中登录');
+};
+
+const  tryAction = ()=>{
+    alert('选中试用');
+};
+
 export default class DoubanDemo extends Component {
-  render() {
-    return (
-      <View style={styles.container}>
-        <View style={styles.view_top}>
-            <Image style={styles.logo} source={require('./source/icon.png')}></Image>
-        </View>
 
 
-        <View style={styles.view_middle}>
-            <TouchableOpacity>
-                <Text style={styles.button_login}>手机号登录</Text>
-            </TouchableOpacity>
-            <TouchableOpacity>
-                <Text style={styles.button_login} >注册</Text>
-            </TouchableOpacity>
-            <TouchableOpacity>
-                <Text style={styles.button_vistor} >游客试用</Text>
-            </TouchableOpacity>
+    constructor(props) {
+      super(props);
+      this.state = {};
+    }
 
-            <Text style={styles.button_vistor_line}></Text>
-
-        </View>
-
-        <View style={{backgroundColor:'white', flex:2 ,justifyContent:'flex-start', alignItems:'center'}}>
-            <View style={{flex:1,flexDirection:'row',justifyContent:'center',alignItems:'center'}}>
-                <Text style={styles.welcome_line}></Text>
-                <Text style={styles.welcome}>其他登录方式</Text>
-                <Text style={styles.welcome_line}></Text>
+    render() {
+        return (
+          <View style={styles.container}>
+            <View style={styles.view_top}>
+                <Image style={styles.logo} source={require('./source/icon.png')}></Image>
             </View>
 
-            <View>
+            <View style={styles.view_middle} onPress={loginAction}>
+                <TouchableOpacity>
+                    <Text style={styles.button_login}>手机号登录</Text>
+                </TouchableOpacity>
+                <TouchableOpacity>
+                    <Text style={styles.button_login} onPress={registAction}>注册</Text>
+                </TouchableOpacity>
+                <TouchableOpacity>
+                    <Text style={styles.button_vistor} onPress={tryAction} >游客试用</Text>
+                </TouchableOpacity>
+
+                <Text style={styles.button_vistor_line}></Text>
 
             </View>
-        </View>
 
-      </View>
+            <View style={styles.view_bottom}>
+                <View style={styles.view_bottom_segement}>
+                    <Text style={styles.welcome_line}></Text>
+                    <Text style={styles.welcome}>其他登录方式</Text>
+                    <Text style={styles.welcome_line}></Text>
+                </View>
+
+                <View style={styles.view_bottom_buttonView}>
+                    <SNSView name='QQ'  index='0'></SNSView>
+                    <SNSView name='微博' index='1'></SNSView>
+                    <SNSView name='微信' index='2'></SNSView>
+                </View>
+            </View>
+
+          </View>
     );
   }
 }
@@ -104,18 +148,20 @@ const styles = StyleSheet.create({
 
     button_vistor:{
         width:100,
-        height:30,
+        height:40,
         color:'gray',
         fontSize:13,
         textAlign:'center',
         fontWeight:'normal',
-        paddingTop:12,
+        paddingTop:20,
     },
 
     button_vistor_line:{
-        width:60,
+        width:55,
         height:0.5,
-        backgroundColor:'gray',paddingTop:0
+        backgroundColor:'gray',
+        marginTop:0,
+
     },
 
     welcome: {
@@ -128,7 +174,30 @@ const styles = StyleSheet.create({
         backgroundColor:'#a4a3a4',
         height:0.5,
         width:100
-    }
+    },
+    view_bottom:{
+        backgroundColor:'white',
+        flex:1,
+        justifyContent:'flex-start',
+        alignItems:'center'
+    },
+    view_bottom_segement:{
+        flex:1,
+        flexDirection:'row',
+        justifyContent:'center',
+        alignItems:'center'
+    },
+    view_bottom_buttonView:{
+        flex:3,
+        width:300,
+        flexDirection:'row',
+        justifyContent:'space-around',
+        alignItems:'center'
+    },
+    iconBtn:{
+        width:28,
+        height:28
+    },
 });
 
 AppRegistry.registerComponent('DoubanDemo', () => DoubanDemo);
