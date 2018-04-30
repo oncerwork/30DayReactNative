@@ -11,14 +11,10 @@ import {
   Text,
   View,
   Image,
+  Button,
   TouchableOpacity
 } from 'react-native';
 
-
-//登录方法
-const onPressLearnMore = function(){
-    alert('登录成功');
-}
 
 const imageArray = [require('./source/qq.png'),require('./source/weibo.png'),require('./source/wechat.png')]
 
@@ -26,10 +22,16 @@ const imageArray = [require('./source/qq.png'),require('./source/weibo.png'),req
 * 底部按钮 View
 */
 class SNSView extends Component {
+
+
+    SNSSelect = (type) =>{
+        alert('选中了'+type);
+    };
+
     render() {
         let imagePath = imageArray[this.props.index];
         return (
-            <TouchableOpacity style={{alignItems:'center'}} onPress={SNSSelect.bind(this,this.props.name)}>
+            <TouchableOpacity style={{alignItems:'center'}} onPress={this.SNSSelect.bind(this,this.props.name)}>
                 <Image
                     style={styles.iconBtn}
                     source={imagePath}
@@ -40,45 +42,54 @@ class SNSView extends Component {
     }
 }
 
-const SNSSelect = (type) =>{
-    alert('选中了'+type);
-};
-
-const  registAction = ()=>{
-    alert('选中注册');
-};
-
-const  loginAction = ()=>{
-    alert('选中登录');
-};
-
-const  tryAction = ()=>{
-    alert('选中试用');
-};
 
 export class HomeView extends Component {
-
+    //导航栏
+    static navigationOptions= {
+        title:'首页',
+        header: null,
+    }
+    
     constructor(props) {
-      super(props);
-      this.state = {};
+        super(props);
+        this.state = {};
     }
 
+    registAction = ()=>{
+        alert('选中了注册');
+    };
+
+    loginAction = ()=>{
+        navigate('Login');
+    };
+    
+    tryAction = ()=>{
+        alert('选中试用');
+    };
+
+
     render() {
+
+        const { navigate } = this.props.navigation;
+
         return (
           <View style={styles.container}>
             <View style={styles.view_top}>
                 <Image style={styles.logo} source={require('./source/icon.png')}></Image>
             </View>
 
-            <View style={styles.view_middle} onPress={loginAction}>
-                <TouchableOpacity>
+            <View style={styles.view_middle} >
+
+                <TouchableOpacity onPress={()=>navigate('Login')}>
                     <Text style={styles.button_login}>手机号登录</Text>
                 </TouchableOpacity>
-                <TouchableOpacity>
-                    <Text style={styles.button_login} onPress={registAction}>注册</Text>
+
+                <TouchableOpacity onPress={this.registAction}>
+                    <Text style={styles.button_login} >注册</Text>
                 </TouchableOpacity>
+
                 <TouchableOpacity>
-                    <Text style={styles.button_vistor} onPress={tryAction} >游客试用</Text>
+                    <Text style={styles.button_vistor} onPress={this.tryAction} >游客试用</Text>
                 </TouchableOpacity>
 
                 <Text style={styles.button_vistor_line}></Text>
@@ -143,7 +154,7 @@ const styles = StyleSheet.create({
         borderRadius: 22,
         marginTop:15,
         fontWeight:'normal',
-        paddingTop:12
+        paddingTop:12,
     },
 
     button_vistor:{
@@ -200,4 +211,4 @@ const styles = StyleSheet.create({
     },
 });
 
-export default HomeView
+export default HomeView;

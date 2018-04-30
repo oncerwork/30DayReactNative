@@ -27,9 +27,24 @@ export default class DoubanDemo extends Component {
     };
 }
 
-const Navigator = StackNavigator({
-    Home:{screen:HomeView},
-    Login:{screen:LoginView}
-})
+const Navigator = StackNavigator(
+    {
+        Home:{screen:HomeView},
+        Login:{screen:LoginView},   
+    },
+    {  
+        initialRouteName: 'Home',
+        navigationOptions:{
+            headerStyle:{
+                backgroundColor:'#D73C3C',
+            },
+            headerTintColor:'#fff',
+            headerTitleStyle:{
+                fontSize:18,
+                fontWeight:'bold'
+            }
+        }
+    }
+)
 
 AppRegistry.registerComponent('DoubanDemo', () => DoubanDemo);
