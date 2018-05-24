@@ -765,6 +765,7 @@
 					"-ObjC",
 					"-lc++",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.oncerwork.doubanDemo;
 				PRODUCT_NAME = DoubanDemo;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -784,6 +785,7 @@
 					"-ObjC",
 					"-lc++",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.oncerwork.doubanDemo;
 				PRODUCT_NAME = DoubanDemo;
 				VERSIONING_SYSTEM = "apple-generic";
 			};

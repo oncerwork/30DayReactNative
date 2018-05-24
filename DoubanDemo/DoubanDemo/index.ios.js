@@ -17,7 +17,9 @@ import HomeView from './home'
 //正式开始
 import Music from './iOS_Views/Music/music'
 import Book from './iOS_Views/Book/book'
+import BookDetail from './iOS_Views/Book/book_detail'
 import Movie from './iOS_Views/Movie/movie'
+import WebViewContent from './iOS_Views/Common/webView'
 
 
 export default class DoubanDemo extends Component {
@@ -59,15 +61,19 @@ const Navigator = StackNavigator(
 //构建 Tabbar + Navigation
 
 const BookStack = StackNavigator({
-    BookHome: { screen: Book }
+    BookHome: { screen: Book },
+    BookDetailVC:{screen:BookDetail}
 });
 
 const MovieStack = StackNavigator({
-    MovieHome: { screen: Movie }
+    MovieHome: { screen: Movie },
+    WebViewContent:{screen:WebViewContent}
 });
 
+
 const MuiscStack = StackNavigator({
-    MusicHome: { screen: Music }
+    MusicHome: { screen: Music },
+    WebViewContent:{screen:WebViewContent}
 });
 
 const Tabbar = TabNavigator(

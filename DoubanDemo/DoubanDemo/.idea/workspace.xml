@@ -2,12 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9075ff35-1e4e-441e-8d3c-a862338936c9" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/iOS_Views/Common/navigation.js" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/iOS_Views/Book/book.js" afterPath="$PROJECT_DIR$/iOS_Views/Book/book.js" />
+      <change beforePath="$PROJECT_DIR$/iOS_Views/Movie/movie.js" afterPath="$PROJECT_DIR$/iOS_Views/Movie/movie.js" />
+      <change beforePath="$PROJECT_DIR$/iOS_Views/Music/music.js" afterPath="$PROJECT_DIR$/iOS_Views/Music/music.js" />
+      <change beforePath="$PROJECT_DIR$/index.ios.js" afterPath="$PROJECT_DIR$/index.ios.js" />
+      <change beforePath="$PROJECT_DIR$/ios/DoubanDemo/Info.plist" afterPath="$PROJECT_DIR$/ios/DoubanDemo/Info.plist" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/DoubanDemo.build/Debug-iphonesimulator/DoubanDemo.build/Objects-normal/x86_64/AppDelegate.o" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/DoubanDemo.build/Debug-iphonesimulator/DoubanDemo.build/Objects-normal/x86_64/AppDelegate.o" />
       <change beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/DoubanDemo.build/Debug-iphonesimulator/DoubanDemo.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/DoubanDemo.build/Debug-iphonesimulator/DoubanDemo.build/dgph" />
       <change beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/RCTActionSheet.build/Debug-iphonesimulator/RCTActionSheet.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/RCTActionSheet.build/Debug-iphonesimulator/RCTActionSheet.build/dgph" />
       <change beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/RCTAnimation.build/Debug-iphonesimulator/RCTAnimation.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/RCTAnimation.build/Debug-iphonesimulator/RCTAnimation.build/dgph" />
       <change beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/RCTGeolocation.build/Debug-iphonesimulator/RCTGeolocation.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/RCTGeolocation.build/Debug-iphonesimulator/RCTGeolocation.build/dgph" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/RCTImage.build/Debug-iphonesimulator/RCTImage.build/Objects-normal/x86_64/RCTImageLoader.o" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/RCTImage.build/Debug-iphonesimulator/RCTImage.build/Objects-normal/x86_64/RCTImageLoader.o" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/RCTImage.build/Debug-iphonesimulator/RCTImage.build/Objects-normal/x86_64/RCTResizeMode.o" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/RCTImage.build/Debug-iphonesimulator/RCTImage.build/Objects-normal/x86_64/RCTResizeMode.o" />
       <change beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/RCTImage.build/Debug-iphonesimulator/RCTImage.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/RCTImage.build/Debug-iphonesimulator/RCTImage.build/dgph" />
       <change beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/RCTLinking.build/Debug-iphonesimulator/RCTLinking.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/RCTLinking.build/Debug-iphonesimulator/RCTLinking.build/dgph" />
       <change beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/RCTNetwork.build/Debug-iphonesimulator/RCTNetwork.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/RCTNetwork.build/Debug-iphonesimulator/RCTNetwork.build/dgph" />
@@ -15,10 +23,385 @@
       <change beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/RCTText.build/Debug-iphonesimulator/RCTText.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/RCTText.build/Debug-iphonesimulator/RCTText.build/dgph" />
       <change beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/RCTVibration.build/Debug-iphonesimulator/RCTVibration.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/RCTVibration.build/Debug-iphonesimulator/RCTVibration.build/dgph" />
       <change beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/RCTWebSocket.build/Debug-iphonesimulator/RCTWebSocket.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/RCTWebSocket.build/Debug-iphonesimulator/RCTWebSocket.build/dgph" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/React.build/Objects-normal/x86_64/RCTMultipartStreamReader.o" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/React.build/Objects-normal/x86_64/RCTMultipartStreamReader.o" />
       <change beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/React.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/React.build/dgph" />
       <change beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/cxxreact.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/cxxreact.build/dgph" />
       <change beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/jschelpers.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/jschelpers.build/dgph" />
       <change beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/yoga.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/yoga.build/dgph" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/DoubanDemo.app.dSYM/Contents/Resources/DWARF/DoubanDemo" afterPath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/DoubanDemo.app.dSYM/Contents/Resources/DWARF/DoubanDemo" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/DoubanDemo.app/Base.lproj/LaunchScreen.nib" afterPath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/DoubanDemo.app/Base.lproj/LaunchScreen.nib" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/DoubanDemo.app/DoubanDemo" afterPath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/DoubanDemo.app/DoubanDemo" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/DoubanDemo.app/Info.plist" afterPath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/DoubanDemo.app/Info.plist" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/DoubanDemo.app/_CodeSignature/CodeResources" afterPath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/DoubanDemo.app/_CodeSignature/CodeResources" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/libRCTActionSheet.a" afterPath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/libRCTActionSheet.a" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/libRCTAnimation.a" afterPath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/libRCTAnimation.a" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/libRCTGeolocation.a" afterPath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/libRCTGeolocation.a" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/libRCTImage.a" afterPath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/libRCTImage.a" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/libRCTLinking.a" afterPath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/libRCTLinking.a" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/libRCTNetwork.a" afterPath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/libRCTNetwork.a" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/libRCTSettings.a" afterPath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/libRCTSettings.a" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/libRCTText.a" afterPath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/libRCTText.a" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/libRCTVibration.a" afterPath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/libRCTVibration.a" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/libRCTWebSocket.a" afterPath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/libRCTWebSocket.a" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/libReact.a" afterPath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/libReact.a" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/libcxxreact.a" afterPath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/libcxxreact.a" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/libjschelpers.a" afterPath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/libjschelpers.a" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/libyoga.a" afterPath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/libyoga.a" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/AVFoundation-2W8OQOO5E005V.pcm-3JKBJ6BP9GED5" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/Accelerate-1IKW7DALYIORV.pcm-2L4NOMOMJCE76" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/AppDelegate.o-CJ81FYBK2NUM" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/AudioToolbox-29TRZLCW5QLKV.pcm-23200TA2201ZO" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/AudioToolbox-29TRZLCW5QLKV.pcm-8RVB13CPZP3K" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/CFNetwork-3188M7OK0JW08.pcm-12OY942743C1O" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/CFNetwork-3188M7OK0JW08.pcm-2MHDOEMT5ERLE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/CFNetwork-3188M7OK0JW08.pcm-2P8S9CC6WPKES" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/CoreAudio-DU322UQPMITA.pcm-1PW36RFV995T5" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/CoreAudio-DU322UQPMITA.pcm-XTOXZZ6YHBH3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/CoreFoundation-J9ZOXGK4ZTRR.pcm-3R8NKGZ7BH55W" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/CoreFoundation-J9ZOXGK4ZTRR.pcm-3TA1A8U0ZV1DH" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/CoreFoundation-J9ZOXGK4ZTRR.pcm-BSHGTXYX7Q9" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/CoreGraphics-54UV9QOCX3ZY.pcm-2K685GIKZ0K6R" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/CoreGraphics-54UV9QOCX3ZY.pcm-AP7UZY9DASQI" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/CoreGraphics-54UV9QOCX3ZY.pcm-KNM9N81ZM637" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/CoreImage-2L8M44C0CYIPM.pcm-1EI0JR3SJUMKI" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/CoreImage-2L8M44C0CYIPM.pcm-36IXHIUIWZ8H3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/CoreImage-2L8M44C0CYIPM.pcm-UVISIEMPLT5F" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/CoreLocation-2RB9TGORWT0YQ.pcm-1HVWQD78L14M3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/CoreLocation-2RB9TGORWT0YQ.pcm-28CEERY8KTLH4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/CoreMIDI-2OV5TK5CIMZXQ.pcm-2TBCRNCH9W4D2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/CoreMIDI-2OV5TK5CIMZXQ.pcm-3LGB3MOEA0OON" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/CoreMedia-3JTCZ41S8BKUD.pcm-1PJXP64YCXZDM" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/CoreText-3W9A51BO0R6G.pcm-2Y6VOSH787O1T" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/CoreText-3W9A51BO0R6G.pcm-3CWQJYYXTAWMF" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/CoreText-3W9A51BO0R6G.pcm-ZL61FNBU5X46" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/CoreVideo-1MLDN391V99P4.pcm-2E6L9WQAOT6E4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/CoreVideo-1MLDN391V99P4.pcm-2TE0K7T0T77RY" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/CoreVideo-1MLDN391V99P4.pcm-4K69FVYVHLJ0" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/Darwin-38I6DLZ5IH61J.pcm-1ND2UFA4GOGX2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/Darwin-38I6DLZ5IH61J.pcm-3DTR5CWK3HPWF" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/Darwin-38I6DLZ5IH61J.pcm-3E9GM3BH9O78Q" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/Darwin-38I6DLZ5IH61J.pcm-MXJ4XSCCC3SZ" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/Dispatch-2LX9MWM6UEPQW.pcm-18WSFRHHFDIOB" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/Dispatch-2LX9MWM6UEPQW.pcm-21BSBT14N2RWL" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/Dispatch-2LX9MWM6UEPQW.pcm-2SCGNAEVUANS4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/DoubanDemo_vers.o-4E40SOIESCJR" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/FileProvider-1OMUUHYDP2DYB.pcm-1PHS5EG15QXRG" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/FileProvider-1OMUUHYDP2DYB.pcm-2C2QTLVO9CGZW" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/FileProvider-1OMUUHYDP2DYB.pcm-AQMITKACQTI6" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/Foundation-3DFYNEBRQSXST.pcm-24G3F98ZFHQ41" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/Foundation-3DFYNEBRQSXST.pcm-268KSPLWB18GF" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/Foundation-3DFYNEBRQSXST.pcm-3THAK3M0F7HCB" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/ImageIO-N94D31PLFESQ.pcm-1FZP5LBJ05K1L" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/ImageIO-N94D31PLFESQ.pcm-2DQIA3Y0V4M3K" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/ImageIO-N94D31PLFESQ.pcm-EZCOX98CD34T" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/JSBundleType.o-1DBCII4QEQHDR" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/JSCSamplingProfiler.o-8HJTSIA887YF" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/JSCWrapper.o-B61OMNMM7CRR" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/JavaScriptCore-N94D31PLFESQ.pcm-1REW1I7SWGI9Y" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/JavaScriptCore-N94D31PLFESQ.pcm-34VKZUBHBO2T" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/MachO-1BMJAO5Q3NM3O.pcm-1Y24SB48JFNJD" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/MediaToolbox-3N6MLXYI7H98P.pcm-2RM9MNP49VL39" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/Metal-UMHL2WVYX9T4.pcm-1RRD8Z8EGROQ3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/Metal-UMHL2WVYX9T4.pcm-1X73Q57EY1OM1" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/Metal-UMHL2WVYX9T4.pcm-2T1ZYOE6MI5HC" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/MobileCoreServices-N94D31PLFESQ.pcm-1FAYFZ8LAGMPK" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/ObjectiveC-1R06XOY9T4FIM.pcm-118TB82XHZ639" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/ObjectiveC-1R06XOY9T4FIM.pcm-DBQ01LJO2LMX" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/ObjectiveC-1R06XOY9T4FIM.pcm-ZSAJVRRKIVO3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/OpenGLES-MDRMEQ3COFKY.pcm-1BPTKX5SMNJ4M" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/OpenGLES-MDRMEQ3COFKY.pcm-2EZDA8KKU9CWS" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/OpenGLES-MDRMEQ3COFKY.pcm-34EFTG9VBMM61" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/QuartzCore-23I9VTX2KZMTH.pcm-1UBE6HZIY055X" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/QuartzCore-23I9VTX2KZMTH.pcm-3DT23Q4CV8NNT" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/QuartzCore-23I9VTX2KZMTH.pcm-3GUKYS8TM1TAG" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTAccessibilityManager.o-162K3E84L5P38" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTActionSheetManager.o-5JB9R0PIH4RP" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTActivityIndicatorView.o-2HFOTQG7OKCQ3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTActivityIndicatorViewManager.o-3F1ARXZGR6N40" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTAdditionAnimatedNode.o-18MJGHY7X4PG2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTAlertManager.o-2XTHANAAADY6L" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTAnimatedNode.o-1WSLUUVCKN78F" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTAnimationUtils.o-1P2TJVENSYEVA" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTAppState.o-26UIBZM93C01P" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTAssert.o-3S8YPA5TED6TX" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTAsyncLocalStorage.o-18PAIZ6XDKZO9" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTBatchedBridge.o-1E2NP3CC3QFCY" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTBorderDrawing.o-P1G5LSG9J2U8" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTBridge.o-3NLD7A0O6F14X" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTBundleURLProvider.o-1GTH6LAYGAZ7F" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTClipboard.o-3KOV3RFATTJCI" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTComponentData.o-2ZIWUBI6O5Z14" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTConvert+CoreLocation.o-103VTS7G5SUTK" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTConvert+Text.o-3MVKJ17E9GWDD" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTConvert+Transform.o-5OSQ0V1B9IBB" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTConvert.o-WLUADUHYZP4X" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTDataRequestHandler.o-2QC5AO9B3ZU7M" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTDatePicker.o-37RTLRI5H0VP8" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTDatePickerManager.o-281WFE2D4T88S" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTDevLoadingView.o-X6BL4GD0AKZJ" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTDevMenu.o-3G1GDB47RKYD" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTDevSettings.o-16ELPGUMTI7W7" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTDeviceInfo.o-2JFWWJLY3E0M1" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTDiffClampAnimatedNode.o-ZEDCF9U37WE8" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTDisplayLink.o-2SWY2SMHIOP3P" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTDivisionAnimatedNode.o-EVSJIFOCK08M" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTErrorInfo.o-2LTTSL4JCQAAU" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTEventAnimation.o-5X69NOPC485L" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTEventDispatcher.o-DIDVK7XELFVK" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTEventEmitter.o-2PQKDLFKHUG4C" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTExceptionsManager.o-23O7QJLP49Y84" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTFPSGraph.o-2TJLH99SDTBUY" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTFileRequestHandler.o-S1F448JQ1N3P" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTFont.o-2RICA5WQDCRER" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTFrameAnimation.o-1RH4TQI2KB9IK" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTFrameUpdate.o-2TPAW04TW1A44" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTGIFImageDecoder.o-16RT6FD93O4D3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTHTTPRequestHandler.o-1HSI113A39A6U" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTI18nManager.o-2D6M1JB1SNNH7" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTI18nUtil.o-1NOG1L1N38KTA" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTImageBlurUtils.o-1J6EZLE2DHLFB" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTImageCache.o-2EVANIEDVTSAB" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTImageEditingManager.o-TA6445E3GH0B" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTImageLoader.o-1U2QRJPTCFSUG" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTImageSource.o-3KGW8XZGDLWWL" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTImageStoreManager.o-3PVO2ENJX4D2P" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTImageUtils.o-1TXOD22LGU4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTImageView.o-NDAKROCJ4WZH" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTImageViewManager.o-31SEBLNFN7JAI" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTInterpolationAnimatedNode.o-1F397X5HKJ9BW" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTJSCErrorHandling.o-3K36OR15PDOFE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTJSCExecutor.o-5RJLBY8QU05Y" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTJSCProfiler.o-XBM5EDU81AL6" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTJSStackFrame.o-1OXZNN9H8YU1" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTJavaScriptLoader.o-1OG1VJVYUMJJ4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTKeyCommands.o-1LYPM1XQQYFKA" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTKeyboardObserver.o-1LZV6N94UDNPM" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTLinkingManager.o-XOI8ZGHXHAJU" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTLocalAssetImageLoader.o-166DC4CSMM0RC" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTLocationObserver.o-G8FD5JCS79U7" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTLog.o-1877O040AHA4O" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTModalHostView.o-23CTK1F7LDMUE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTModalHostViewController.o-16R4Q9DNTPB19" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTModalHostViewManager.o-3MB16J3QHIXD3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTModuleData.o-2HWKFAAA1HQDL" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTModuleMethod.o-3761EDL04GF8U" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTModuloAnimatedNode.o-4FCZ1SVT7E4T" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTMultipartDataTask.o-2MP1BCAU965YJ" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTMultipartStreamReader.o-3E2VT1CGEVA2O" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTMultiplicationAnimatedNode.o-2N1L8GKIXQOH6" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTNativeAnimatedModule.o-2OXFDGNZNPUDJ" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTNativeAnimatedNodesManager.o-3R59SC80O4TKU" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTNavItem.o-ZK7A838S6527" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTNavItemManager.o-VQ52PUK4ATCM" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTNavigator.o-23Y8LCICALMZT" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTNavigatorManager.o-TKX842M72JU0" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTNetInfo.o-DYSJYJFMJNIN" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTNetworkTask.o-3S5HVQ09NUC9V" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTNetworking.o-TQ3NZ1NPDNVV" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTPackagerClient.o-8KPTE11BQJ8M" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTPackagerClientResponder.o-BRPKU5NLYDVD" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTParserUtils.o-184OTOWUQ4SH8" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTPerfMonitor.o-CIYDBZ42T10Z" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTPerformanceLogger.o-3K58CXORQ0ACT" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTPicker.o-2POQGQBGVSF1R" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTPickerManager.o-2S8YW51WJX0YO" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTPlatform.o-6Y8OWMLTBY5U" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTProfile.o-10UUWT0TXKLEX" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTProgressViewManager.o-24F48S3PKRA0M" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTPropsAnimatedNode.o-2OBLKRDQ9OJJV" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTRawTextManager.o-61C8NRD737V8" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTReconnectingWebSocket.o-1TZ97BTVZWPDU" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTRedBox.o-3OF251NM4AKCG" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTRefreshControl.o-3BNZ4LTRUV3HU" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTRefreshControlManager.o-3CYDHHCMLNYYM" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTReloadCommand.o-1CG9HSC04TQ8D" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTReloadPackagerMethod.o-U0CY0OQM204I" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTResizeMode.o-2OBVTB3CS91OY" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTRootContentView.o-2RQYISYTL1UYQ" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTRootShadowView.o-5CVWYSEQ1AVT" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTRootView.o-2KSN38CJ43POV" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTSRWebSocket.o-SP2NTB8S8EH8" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTSamplingProfilerPackagerMethod.o-3SEF4UCS930KB" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTScrollContentShadowView.o-2P06LUY4VQ951" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTScrollContentViewManager.o-240JCEX8NF829" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTScrollView.o-3E5TV0GY1VP3B" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTScrollViewManager.o-9Z2ZZ09TQU75" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTSegmentedControl.o-2H66XFLDHR5YJ" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTSegmentedControlManager.o-1N9E8K41FQHNE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTSettingsManager.o-1JQ8PG32AUQ81" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTShadowRawText.o-3JB6V360JS0MT" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTShadowText.o-IXTMZKJPOKVI" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTShadowTextField.o-EMF5RABMVBN0" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTShadowTextView.o-336DN1GAUFLIM" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTShadowView.o-31GZ20AS35UOR" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTSlider.o-1MEE1DDMX3XYZ" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTSliderManager.o-2KI9O9IW90FBA" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTSourceCode.o-2DZVUVDQMC1M5" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTSpringAnimation.o-I0RHWBDBR7RT" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTStatusBarManager.o-2DKHF3129X5T0" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTStyleAnimatedNode.o-3S02YZTIVWCAK" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTSwitch.o-1V1RBCCCP7SCF" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTSwitchManager.o-2D8JH9KWWJF56" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTTabBar.o-9UKHGNRRXPU0" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTTabBarItem.o-2YIDDPX0WCZV" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTTabBarItemManager.o-3A3PWHJSPPAIC" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTTabBarManager.o-1JVLID606WN7N" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTText.o-33JTCL1QIGEMJ" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTTextField.o-3KN3G8W8B2GDW" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTTextFieldManager.o-2JL9DMTR1VFH0" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTTextManager.o-SLGPY79YI2WR" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTTextSelection.o-1AF1TBXW8X5XB" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTTextView.o-BRC4L6ZJSTU6" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTTextViewManager.o-1F2VQHCYVKKIV" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTTiming.o-3GI4DXWZEZ2TT" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTTouchEvent.o-HMGWYSWRWQ2D" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTTouchHandler.o-23C6UY9SW6JBY" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTTransformAnimatedNode.o-3426T5LI5RKOS" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTUIManager.o-1B836D2EBGETG" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTUITextView.o-2YMK4P6LSBW3J" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTUtils.o-2X3YMBYXVQ6SX" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTValueAnimatedNode.o-2MW9C529O0LLU" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTVibration.o-OOK23FPK4DAN" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTView.o-3CAA5N21ATUYQ" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTViewManager.o-24Z3YWRBT4HQD" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTWebSocketExecutor.o-UQJNVUCQKKW" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTWebSocketModule.o-2T4OZ8VKWTTLA" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTWebSocketObserver.o-1GG1YGT1JV9LP" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTWebView.o-VHR0WXPQUCHH" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTWebViewManager.o-3LAZ1NOYZA7FD" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/RCTWrapperViewController.o-1TPYU0HL2JTD6" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/Security-27ZMYP8CODFT0.pcm-2HY94Y3QRHPQY" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/Security-27ZMYP8CODFT0.pcm-2IBD6SOFFZ1DO" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/Security-27ZMYP8CODFT0.pcm-YGYNIEEESHW8" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/SystemConfiguration-354UAJE49HRJF.pcm-15Y0OCU0AZ4VM" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/UIKit-1V5UHAPTOD24G.pcm-2X1TP7Z0TJYS6" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/UIKit-1V5UHAPTOD24G.pcm-3H30ZPQCPXD29" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/UIKit-1V5UHAPTOD24G.pcm-W3P2L7T5EFAV" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/UIView+React.o-20UL3PVACUWNC" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/YGNodeList.o-31V0IPO7OB9XL" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/Yoga.o-1NF63QVCYQYNJ" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/_Builtin_intrinsics-3FD15YQY6KNNR.pcm-HDW7OXJH49YM" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/_Builtin_intrinsics-3FD15YQY6KNNR.pcm-MSIH7DU0HWKO" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/main.o-2Q0TQVHWL282M" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/os-38I6DLZ5IH61J.pcm-2CI5RG3G33G9Y" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/os_object-38I6DLZ5IH61J.pcm-2BFYC3XB5DOG6" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/os_object-38I6DLZ5IH61J.pcm-3J7YIJK2FQRWH" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/os_object-38I6DLZ5IH61J.pcm-G94AYOYW8LNZ" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/simd-3V2MLXFFX3BH.pcm-33439QJ7LDF28" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/systemJSCWrapper.o-1DESQ85G4LA4Z" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Index/DataStore/v5/units/zlib-38I6DLZ5IH61J.pcm-3J8EV9ZFD6HF0" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Logs/Build/.dat.nosync094e.IGoiEq" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/Logs/Build/0BF93BEC-25FB-44A3-A1D7-067ACB71845D.xcactivitylog" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/2LM67HUI2TKXE/CFNetwork-3188M7OK0JW08.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/2LM67HUI2TKXE/CFNetwork-3188M7OK0JW08.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/2LM67HUI2TKXE/CoreFoundation-J9ZOXGK4ZTRR.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/2LM67HUI2TKXE/CoreFoundation-J9ZOXGK4ZTRR.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/2LM67HUI2TKXE/CoreGraphics-54UV9QOCX3ZY.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/2LM67HUI2TKXE/CoreGraphics-54UV9QOCX3ZY.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/2LM67HUI2TKXE/CoreImage-2L8M44C0CYIPM.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/2LM67HUI2TKXE/CoreImage-2L8M44C0CYIPM.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/2LM67HUI2TKXE/CoreText-3W9A51BO0R6G.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/2LM67HUI2TKXE/CoreText-3W9A51BO0R6G.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/2LM67HUI2TKXE/CoreVideo-1MLDN391V99P4.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/2LM67HUI2TKXE/CoreVideo-1MLDN391V99P4.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/2LM67HUI2TKXE/Darwin-38I6DLZ5IH61J.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/2LM67HUI2TKXE/Darwin-38I6DLZ5IH61J.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/2LM67HUI2TKXE/Dispatch-2LX9MWM6UEPQW.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/2LM67HUI2TKXE/Dispatch-2LX9MWM6UEPQW.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/2LM67HUI2TKXE/FileProvider-1OMUUHYDP2DYB.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/2LM67HUI2TKXE/FileProvider-1OMUUHYDP2DYB.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/2LM67HUI2TKXE/Foundation-3DFYNEBRQSXST.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/2LM67HUI2TKXE/Foundation-3DFYNEBRQSXST.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/2LM67HUI2TKXE/ImageIO-N94D31PLFESQ.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/2LM67HUI2TKXE/ImageIO-N94D31PLFESQ.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/2LM67HUI2TKXE/Metal-UMHL2WVYX9T4.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/2LM67HUI2TKXE/Metal-UMHL2WVYX9T4.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/2LM67HUI2TKXE/ObjectiveC-1R06XOY9T4FIM.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/2LM67HUI2TKXE/ObjectiveC-1R06XOY9T4FIM.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/2LM67HUI2TKXE/OpenGLES-MDRMEQ3COFKY.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/2LM67HUI2TKXE/OpenGLES-MDRMEQ3COFKY.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/2LM67HUI2TKXE/QuartzCore-23I9VTX2KZMTH.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/2LM67HUI2TKXE/QuartzCore-23I9VTX2KZMTH.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/2LM67HUI2TKXE/Security-27ZMYP8CODFT0.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/2LM67HUI2TKXE/Security-27ZMYP8CODFT0.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/2LM67HUI2TKXE/UIKit-1V5UHAPTOD24G.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/2LM67HUI2TKXE/UIKit-1V5UHAPTOD24G.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/2LM67HUI2TKXE/modules.idx" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/2LM67HUI2TKXE/modules.idx" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/2LM67HUI2TKXE/os_object-38I6DLZ5IH61J.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/2LM67HUI2TKXE/os_object-38I6DLZ5IH61J.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/3BT9TN6YNRIGI/Accelerate-1IKW7DALYIORV.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/3BT9TN6YNRIGI/Accelerate-1IKW7DALYIORV.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/3BT9TN6YNRIGI/AudioToolbox-29TRZLCW5QLKV.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/3BT9TN6YNRIGI/AudioToolbox-29TRZLCW5QLKV.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/3BT9TN6YNRIGI/CFNetwork-3188M7OK0JW08.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/3BT9TN6YNRIGI/CFNetwork-3188M7OK0JW08.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/3BT9TN6YNRIGI/CoreAudio-DU322UQPMITA.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/3BT9TN6YNRIGI/CoreAudio-DU322UQPMITA.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/3BT9TN6YNRIGI/CoreFoundation-J9ZOXGK4ZTRR.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/3BT9TN6YNRIGI/CoreFoundation-J9ZOXGK4ZTRR.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/3BT9TN6YNRIGI/CoreGraphics-54UV9QOCX3ZY.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/3BT9TN6YNRIGI/CoreGraphics-54UV9QOCX3ZY.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/3BT9TN6YNRIGI/CoreImage-2L8M44C0CYIPM.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/3BT9TN6YNRIGI/CoreImage-2L8M44C0CYIPM.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/3BT9TN6YNRIGI/CoreLocation-2RB9TGORWT0YQ.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/3BT9TN6YNRIGI/CoreLocation-2RB9TGORWT0YQ.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/3BT9TN6YNRIGI/CoreMIDI-2OV5TK5CIMZXQ.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/3BT9TN6YNRIGI/CoreMIDI-2OV5TK5CIMZXQ.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/3BT9TN6YNRIGI/CoreText-3W9A51BO0R6G.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/3BT9TN6YNRIGI/CoreText-3W9A51BO0R6G.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/3BT9TN6YNRIGI/CoreVideo-1MLDN391V99P4.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/3BT9TN6YNRIGI/CoreVideo-1MLDN391V99P4.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/3BT9TN6YNRIGI/Darwin-38I6DLZ5IH61J.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/3BT9TN6YNRIGI/Darwin-38I6DLZ5IH61J.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/3BT9TN6YNRIGI/Dispatch-2LX9MWM6UEPQW.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/3BT9TN6YNRIGI/Dispatch-2LX9MWM6UEPQW.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/3BT9TN6YNRIGI/FileProvider-1OMUUHYDP2DYB.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/3BT9TN6YNRIGI/FileProvider-1OMUUHYDP2DYB.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/3BT9TN6YNRIGI/Foundation-3DFYNEBRQSXST.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/3BT9TN6YNRIGI/Foundation-3DFYNEBRQSXST.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/3BT9TN6YNRIGI/ImageIO-N94D31PLFESQ.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/3BT9TN6YNRIGI/ImageIO-N94D31PLFESQ.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/3BT9TN6YNRIGI/JavaScriptCore-N94D31PLFESQ.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/3BT9TN6YNRIGI/JavaScriptCore-N94D31PLFESQ.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/3BT9TN6YNRIGI/MachO-1BMJAO5Q3NM3O.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/3BT9TN6YNRIGI/MachO-1BMJAO5Q3NM3O.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/3BT9TN6YNRIGI/Metal-UMHL2WVYX9T4.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/3BT9TN6YNRIGI/Metal-UMHL2WVYX9T4.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/3BT9TN6YNRIGI/MobileCoreServices-N94D31PLFESQ.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/3BT9TN6YNRIGI/MobileCoreServices-N94D31PLFESQ.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/3BT9TN6YNRIGI/ObjectiveC-1R06XOY9T4FIM.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/3BT9TN6YNRIGI/ObjectiveC-1R06XOY9T4FIM.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/3BT9TN6YNRIGI/OpenGLES-MDRMEQ3COFKY.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/3BT9TN6YNRIGI/OpenGLES-MDRMEQ3COFKY.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/3BT9TN6YNRIGI/QuartzCore-23I9VTX2KZMTH.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/3BT9TN6YNRIGI/QuartzCore-23I9VTX2KZMTH.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/3BT9TN6YNRIGI/Security-27ZMYP8CODFT0.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/3BT9TN6YNRIGI/Security-27ZMYP8CODFT0.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/3BT9TN6YNRIGI/SystemConfiguration-354UAJE49HRJF.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/3BT9TN6YNRIGI/SystemConfiguration-354UAJE49HRJF.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/3BT9TN6YNRIGI/UIKit-1V5UHAPTOD24G.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/3BT9TN6YNRIGI/UIKit-1V5UHAPTOD24G.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/3BT9TN6YNRIGI/_Builtin_intrinsics-3FD15YQY6KNNR.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/3BT9TN6YNRIGI/_Builtin_intrinsics-3FD15YQY6KNNR.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/3BT9TN6YNRIGI/modules.idx" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/3BT9TN6YNRIGI/modules.idx" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/3BT9TN6YNRIGI/os-38I6DLZ5IH61J.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/3BT9TN6YNRIGI/os-38I6DLZ5IH61J.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/3BT9TN6YNRIGI/os_object-38I6DLZ5IH61J.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/3BT9TN6YNRIGI/os_object-38I6DLZ5IH61J.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/5ZN9YGQRO1H4/AVFoundation-2W8OQOO5E005V.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/5ZN9YGQRO1H4/AVFoundation-2W8OQOO5E005V.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/5ZN9YGQRO1H4/AudioToolbox-29TRZLCW5QLKV.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/5ZN9YGQRO1H4/AudioToolbox-29TRZLCW5QLKV.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/5ZN9YGQRO1H4/CFNetwork-3188M7OK0JW08.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/5ZN9YGQRO1H4/CFNetwork-3188M7OK0JW08.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/5ZN9YGQRO1H4/CoreAudio-DU322UQPMITA.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/5ZN9YGQRO1H4/CoreAudio-DU322UQPMITA.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/5ZN9YGQRO1H4/CoreFoundation-J9ZOXGK4ZTRR.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/5ZN9YGQRO1H4/CoreFoundation-J9ZOXGK4ZTRR.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/5ZN9YGQRO1H4/CoreGraphics-54UV9QOCX3ZY.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/5ZN9YGQRO1H4/CoreGraphics-54UV9QOCX3ZY.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/5ZN9YGQRO1H4/CoreImage-2L8M44C0CYIPM.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/5ZN9YGQRO1H4/CoreImage-2L8M44C0CYIPM.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/5ZN9YGQRO1H4/CoreLocation-2RB9TGORWT0YQ.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/5ZN9YGQRO1H4/CoreLocation-2RB9TGORWT0YQ.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/5ZN9YGQRO1H4/CoreMIDI-2OV5TK5CIMZXQ.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/5ZN9YGQRO1H4/CoreMIDI-2OV5TK5CIMZXQ.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/5ZN9YGQRO1H4/CoreMedia-3JTCZ41S8BKUD.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/5ZN9YGQRO1H4/CoreMedia-3JTCZ41S8BKUD.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/5ZN9YGQRO1H4/CoreText-3W9A51BO0R6G.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/5ZN9YGQRO1H4/CoreText-3W9A51BO0R6G.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/5ZN9YGQRO1H4/CoreVideo-1MLDN391V99P4.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/5ZN9YGQRO1H4/CoreVideo-1MLDN391V99P4.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/5ZN9YGQRO1H4/Darwin-38I6DLZ5IH61J.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/5ZN9YGQRO1H4/Darwin-38I6DLZ5IH61J.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/5ZN9YGQRO1H4/Dispatch-2LX9MWM6UEPQW.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/5ZN9YGQRO1H4/Dispatch-2LX9MWM6UEPQW.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/5ZN9YGQRO1H4/FileProvider-1OMUUHYDP2DYB.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/5ZN9YGQRO1H4/FileProvider-1OMUUHYDP2DYB.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/5ZN9YGQRO1H4/Foundation-3DFYNEBRQSXST.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/5ZN9YGQRO1H4/Foundation-3DFYNEBRQSXST.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/5ZN9YGQRO1H4/ImageIO-N94D31PLFESQ.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/5ZN9YGQRO1H4/ImageIO-N94D31PLFESQ.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/5ZN9YGQRO1H4/JavaScriptCore-N94D31PLFESQ.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/5ZN9YGQRO1H4/JavaScriptCore-N94D31PLFESQ.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/5ZN9YGQRO1H4/MediaToolbox-3N6MLXYI7H98P.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/5ZN9YGQRO1H4/MediaToolbox-3N6MLXYI7H98P.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/5ZN9YGQRO1H4/Metal-UMHL2WVYX9T4.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/5ZN9YGQRO1H4/Metal-UMHL2WVYX9T4.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/5ZN9YGQRO1H4/ObjectiveC-1R06XOY9T4FIM.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/5ZN9YGQRO1H4/ObjectiveC-1R06XOY9T4FIM.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/5ZN9YGQRO1H4/OpenGLES-MDRMEQ3COFKY.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/5ZN9YGQRO1H4/OpenGLES-MDRMEQ3COFKY.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/5ZN9YGQRO1H4/QuartzCore-23I9VTX2KZMTH.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/5ZN9YGQRO1H4/QuartzCore-23I9VTX2KZMTH.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/5ZN9YGQRO1H4/Security-27ZMYP8CODFT0.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/5ZN9YGQRO1H4/Security-27ZMYP8CODFT0.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/5ZN9YGQRO1H4/UIKit-1V5UHAPTOD24G.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/5ZN9YGQRO1H4/UIKit-1V5UHAPTOD24G.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/5ZN9YGQRO1H4/_Builtin_intrinsics-3FD15YQY6KNNR.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/5ZN9YGQRO1H4/_Builtin_intrinsics-3FD15YQY6KNNR.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/5ZN9YGQRO1H4/modules.idx" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/5ZN9YGQRO1H4/modules.idx" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/5ZN9YGQRO1H4/os_object-38I6DLZ5IH61J.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/5ZN9YGQRO1H4/os_object-38I6DLZ5IH61J.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/5ZN9YGQRO1H4/simd-3V2MLXFFX3BH.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/5ZN9YGQRO1H4/simd-3V2MLXFFX3BH.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/N3WO70YR39NC/AVFoundation-2W8OQOO5E005V.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/N3WO70YR39NC/AVFoundation-2W8OQOO5E005V.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/N3WO70YR39NC/AudioToolbox-29TRZLCW5QLKV.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/N3WO70YR39NC/AudioToolbox-29TRZLCW5QLKV.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/N3WO70YR39NC/CFNetwork-3188M7OK0JW08.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/N3WO70YR39NC/CFNetwork-3188M7OK0JW08.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/N3WO70YR39NC/CoreAudio-DU322UQPMITA.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/N3WO70YR39NC/CoreAudio-DU322UQPMITA.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/N3WO70YR39NC/CoreFoundation-J9ZOXGK4ZTRR.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/N3WO70YR39NC/CoreFoundation-J9ZOXGK4ZTRR.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/N3WO70YR39NC/CoreGraphics-54UV9QOCX3ZY.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/N3WO70YR39NC/CoreGraphics-54UV9QOCX3ZY.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/N3WO70YR39NC/CoreImage-2L8M44C0CYIPM.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/N3WO70YR39NC/CoreImage-2L8M44C0CYIPM.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/N3WO70YR39NC/CoreLocation-2RB9TGORWT0YQ.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/N3WO70YR39NC/CoreLocation-2RB9TGORWT0YQ.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/N3WO70YR39NC/CoreMIDI-2OV5TK5CIMZXQ.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/N3WO70YR39NC/CoreMIDI-2OV5TK5CIMZXQ.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/N3WO70YR39NC/CoreMedia-3JTCZ41S8BKUD.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/N3WO70YR39NC/CoreMedia-3JTCZ41S8BKUD.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/N3WO70YR39NC/CoreText-3W9A51BO0R6G.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/N3WO70YR39NC/CoreText-3W9A51BO0R6G.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/N3WO70YR39NC/CoreVideo-1MLDN391V99P4.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/N3WO70YR39NC/CoreVideo-1MLDN391V99P4.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/N3WO70YR39NC/Darwin-38I6DLZ5IH61J.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/N3WO70YR39NC/Darwin-38I6DLZ5IH61J.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/N3WO70YR39NC/Dispatch-2LX9MWM6UEPQW.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/N3WO70YR39NC/Dispatch-2LX9MWM6UEPQW.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/N3WO70YR39NC/FileProvider-1OMUUHYDP2DYB.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/N3WO70YR39NC/FileProvider-1OMUUHYDP2DYB.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/N3WO70YR39NC/Foundation-3DFYNEBRQSXST.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/N3WO70YR39NC/Foundation-3DFYNEBRQSXST.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/N3WO70YR39NC/ImageIO-N94D31PLFESQ.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/N3WO70YR39NC/ImageIO-N94D31PLFESQ.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/N3WO70YR39NC/JavaScriptCore-N94D31PLFESQ.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/N3WO70YR39NC/JavaScriptCore-N94D31PLFESQ.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/N3WO70YR39NC/MediaToolbox-3N6MLXYI7H98P.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/N3WO70YR39NC/MediaToolbox-3N6MLXYI7H98P.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/N3WO70YR39NC/Metal-UMHL2WVYX9T4.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/N3WO70YR39NC/Metal-UMHL2WVYX9T4.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/N3WO70YR39NC/ObjectiveC-1R06XOY9T4FIM.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/N3WO70YR39NC/ObjectiveC-1R06XOY9T4FIM.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/N3WO70YR39NC/OpenGLES-MDRMEQ3COFKY.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/N3WO70YR39NC/OpenGLES-MDRMEQ3COFKY.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/N3WO70YR39NC/QuartzCore-23I9VTX2KZMTH.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/N3WO70YR39NC/QuartzCore-23I9VTX2KZMTH.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/N3WO70YR39NC/Security-27ZMYP8CODFT0.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/N3WO70YR39NC/Security-27ZMYP8CODFT0.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/N3WO70YR39NC/UIKit-1V5UHAPTOD24G.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/N3WO70YR39NC/UIKit-1V5UHAPTOD24G.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/N3WO70YR39NC/_Builtin_intrinsics-3FD15YQY6KNNR.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/N3WO70YR39NC/_Builtin_intrinsics-3FD15YQY6KNNR.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/N3WO70YR39NC/modules.idx" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/N3WO70YR39NC/modules.idx" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/N3WO70YR39NC/os_object-38I6DLZ5IH61J.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/N3WO70YR39NC/os_object-38I6DLZ5IH61J.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/N3WO70YR39NC/simd-3V2MLXFFX3BH.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/N3WO70YR39NC/simd-3V2MLXFFX3BH.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/N5XY4JVU7EV0/Accelerate-1IKW7DALYIORV.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/N5XY4JVU7EV0/Accelerate-1IKW7DALYIORV.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/N5XY4JVU7EV0/_Builtin_intrinsics-3FD15YQY6KNNR.pcm" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/N5XY4JVU7EV0/_Builtin_intrinsics-3FD15YQY6KNNR.pcm" />
+      <change beforePath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/N5XY4JVU7EV0/modules.idx" afterPath="$PROJECT_DIR$/ios/build/ModuleCache.noindex/N5XY4JVU7EV0/modules.idx" />
       <change beforePath="$PROJECT_DIR$/ios/build/info.plist" afterPath="$PROJECT_DIR$/ios/build/info.plist" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -32,7 +415,42 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="movie.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/iOS_Views/Movie/movie.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="490">
+              <caret line="53" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="music.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/iOS_Views/Music/music.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-77">
+              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="service.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/iOS_Views/Common/service.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -55,6 +473,7 @@
         <option value="$PROJECT_DIR$/index.ios.js" />
         <option value="$PROJECT_DIR$/login.js" />
         <option value="$PROJECT_DIR$/iOS_Views/Common/navigation.js" />
+        <option value="$PROJECT_DIR$/iOS_Views/Music/music.js" />
       </list>
     </option>
   </component>
@@ -75,10 +494,10 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="348" />
-    <option name="width" value="1440" />
-    <option name="height" value="877" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1920" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -96,8 +515,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -110,6 +529,18 @@
               <item name="DoubanDemo" type="462c0819:PsiDirectoryNode" />
               <item name="iOS_Views" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="DoubanDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DoubanDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="iOS_Views" type="462c0819:PsiDirectoryNode" />
+              <item name="Movie" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DoubanDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DoubanDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="iOS_Views" type="462c0819:PsiDirectoryNode" />
+              <item name="Music" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -121,6 +552,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="jsx.switch.disabled" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -161,19 +593,20 @@
       <workItem from="1524753035845" duration="1520000" />
       <workItem from="1525531692603" duration="1097000" />
       <workItem from="1525533542653" duration="15000" />
+      <workItem from="1527037044617" duration="686000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11644000" />
+    <option name="totallyTimeSpent" value="12330000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="23" width="1440" height="877" extended-state="6" />
+    <frame x="0" y="23" width="1920" height="1057" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3319239" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33175355" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32992327" sideWeight="0.50528544" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32952183" sideWeight="0.50528544" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -208,7 +641,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#89#130#0" expanded="true" />
+            <element signature="e#89#130#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -218,7 +651,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#89#130#0" expanded="true" />
+            <element signature="e#89#130#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -236,7 +669,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#89#130#0" expanded="true" />
+            <element signature="e#89#130#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -246,7 +679,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#89#130#0" expanded="true" />
+            <element signature="e#89#130#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -256,7 +689,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#89#130#0" expanded="true" />
+            <element signature="e#89#130#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -266,7 +699,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#89#130#0" expanded="true" />
+            <element signature="e#89#130#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -276,7 +709,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#89#130#0" expanded="true" />
+            <element signature="e#89#130#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -286,7 +719,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#89#130#0" expanded="true" />
+            <element signature="e#89#130#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -323,9 +756,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -334,7 +764,43 @@
         <state relative-caret-position="15">
           <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
           <folding>
-            <element signature="e#89#130#0" expanded="true" />
+            <element signature="e#89#130#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iOS_Views/Common/webView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iOS_Views/Common/service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iOS_Views/Movie/movie.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="53" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iOS_Views/Music/music.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-77">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>

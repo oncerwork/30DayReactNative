@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>application-identifier</key>
-	<string>UMVWZ2UWAB.org.reactjs.native.example.DoubanDemo</string>
+	<string>UMVWZ2UWAB.com.oncerwork.doubanDemo</string>
 	<key>keychain-access-groups</key>
 	<array>
-		<string>UMVWZ2UWAB.org.reactjs.native.example.DoubanDemo</string>
+		<string>UMVWZ2UWAB.com.oncerwork.doubanDemo</string>
 	</array>
 </dict>
 </plist>
