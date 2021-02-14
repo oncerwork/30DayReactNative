@@ -1,0 +1,75 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch index.html (disable sourcemaps)",
+            "type": "chrome",
+            "request": "launch",
+            "sourceMaps": false,
+            "file": "${workspaceRoot}/ECMAScript6教程/ECMAScript.html"
+        },
+        // {
+        //     "type": "chrome",
+        //     "request": "attach",
+        //     "name": "Attach to Chrome",
+        //     "port": 9222,
+        //     "webRoot": "${workspaceRoot}"
+        // },
+    {
+        "type": "lldb-mi",
+        "request": "launch",
+        "name": "Launch Program (SSH + X11)",
+        "target": "./bin/executable",
+        "cwd": "${workspaceRoot}",
+        "ssh": {
+            "host": "127.0.0.1",
+            "cwd": "/home/remote_user/project/",
+            "keyfile": "/home/my_user/.ssh/id_rsa",
+            "user": "remote_user",
+            "forwardX11": true,
+            "x11host": "localhost",
+            "x11port": 6000
+        }
+    },
+        {
+            "name": "Debug Android",
+            "program": "${workspaceRoot}/.vscode/launchReactNative.js",
+            "type": "reactnative",
+            "request": "launch",
+            "platform": "android",
+            "internalDebuggerPort": 9090,
+            "sourceMaps": true,
+            "outDir": "${workspaceRoot}/.vscode/.react"
+        },
+        {
+            "name": "Debug iOS",
+            "program": "${workspaceRoot}/.vscode/launchReactNative.js",
+            "type": "reactnative",
+            "request": "launch",
+            "platform": "ios",
+            "target": "iPhone 7",
+            "internalDebuggerPort": 9090,
+            "sourceMaps": true,
+            "outDir": "${workspaceRoot}/.vscode/.react"
+        },
+        {
+            "name": "Attach to packager",
+            "program": "${workspaceRoot}/.vscode/launchReactNative.js",
+            "type": "reactnative",
+            "request": "attach",
+            "internalDebuggerPort": 9090,
+            "sourceMaps": true,
+            "outDir": "${workspaceRoot}/.vscode/.react"
+        },
+        {
+            "name": "Debug in Exponent",
+            "program": "${workspaceRoot}/.vscode/launchReactNative.js",
+            "type": "reactnative",
+            "request": "launch",
+            "platform": "exponent",
+            "internalDebuggerPort": 9090,
+            "sourceMaps": true,
+            "outDir": "${workspaceRoot}/.vscode/.react"
+        }
+    ]
+}
